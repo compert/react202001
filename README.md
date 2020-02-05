@@ -57,14 +57,16 @@ Microsoft에서 개발한 소스코드 편집기 - mac, linux, windows 지원
 	.eslintrc : Eslint 설정 파일
 	.gitignore : git 관리 대상 제외 파일
 	.prettierrc : Prettier 설정 파일
-	연ㅓ
+	jest.config.js : Jest 설정 파일
 	package.json : 프로젝트 정보와 의존 모듈(라이브러리) 관리
+	src : 소스 폴더
+	public : 
 	
 	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3ODA4MzQ1Nyw3ODEzMzAyODksMzk4NT
-UwNjY3LC0xNDIxMzY3Njk2LC0yMDIyNjU1OTg2LC0xOTE1OTU0
-NDk5XX0=
+eyJoaXN0b3J5IjpbLTEwNTc1MDQ2OTUsNzgxMzMwMjg5LDM5OD
+U1MDY2NywtMTQyMTM2NzY5NiwtMjAyMjY1NTk4NiwtMTkxNTk1
+NDQ5OV19
 -->
