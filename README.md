@@ -40,14 +40,22 @@ Microsoft에서 개발한 소스코드 편집기 - mac, linux, windows 지원
 
 > yarn start
 
-
 ### 프로젝트 배포
 
 개발배포
-> 
+
+> yarn build
+
+서비스배포
+
+> yarn build:prod
+
+### 프로젝트 구조
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMTc3NTgsMzk4NTUwNjY3LC0xNDIxMz
-Y3Njk2LC0yMDIyNjU1OTg2LC0xOTE1OTU0NDk5XX0=
+eyJoaXN0b3J5IjpbNzgxMzMwMjg5LDM5ODU1MDY2NywtMTQyMT
+M2NzY5NiwtMjAyMjY1NTk4NiwtMTkxNTk1NDQ5OV19
 -->
