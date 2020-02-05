@@ -1,15 +1,15 @@
 import React from 'react'
-import s from './style.scss'
+import styles from './styles.scss'
 
 const TodoList = ({todoList}) => {
   const todoItem = todoList.map(({id, title}) => {
     return (
-      <div key={id} className={s.todoItem}>
+      <div key={id} className={styles.todoItem}>
         {title}
       </div>
     )
   })
-  return <div className={s.wrapper}>{todoItem}</div>
+  return <div className={styles.wrapper}>{todoItem}</div>
 }
 
 export default TodoList

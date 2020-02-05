@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import axios from 'axios'
-import s from './style.scss'
+import styles from './styles.scss'
 import TodoTitle from '../TodoTitle'
 import TodoList from '../TodoList'
 
@@ -21,7 +21,7 @@ const TodoWrapper = () => {
   }, [])
 
   return (
-    <div className={s.wrapper}>
+    <div className={styles.wrapper}>
       <TodoTitle />
       <TodoList todoList={todoList} />
     </div>
