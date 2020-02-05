@@ -55,13 +55,16 @@ Microsoft에서 개발한 소스코드 편집기 - mac, linux, windows 지원
 	.babelrc : babel 설정 파일
 	.editorconfig : EditorConfig 설정 파일
 	.eslintrc : Eslint 설정 파일
-	.giti
+	.gitignore : git 관리 대상 제외 파일
+	.prettierrc : Prettier 설정 파일
+	연ㅓ
 	package.json : 프로젝트 정보와 의존 모듈(라이브러리) 관리
+	
 	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5Mzc3ODQ2LDc4MTMzMDI4OSwzOTg1NT
-A2NjcsLTE0MjEzNjc2OTYsLTIwMjI2NTU5ODYsLTE5MTU5NTQ0
-OTldfQ==
+eyJoaXN0b3J5IjpbLTg3ODA4MzQ1Nyw3ODEzMzAyODksMzk4NT
+UwNjY3LC0xNDIxMzY3Njk2LC0yMDIyNjU1OTg2LC0xOTE1OTU0
+NDk5XX0=
 -->
