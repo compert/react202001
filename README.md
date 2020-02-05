@@ -21,6 +21,9 @@ Chrome V8 JavaScript 엔진으로 빌드된 JavaScript 런타임
 
 Microsoft에서 개발한 소스코드 편집기 - mac, linux, windows 지원
 
+[https://code.visualstudio.com/download](https://code.visualstudio.com/download)
+
+### vscode plugin
 
 
 ## 프로젝트 생성
@@ -31,5 +34,5 @@ Microsoft에서 개발한 소스코드 편집기 - mac, linux, windows 지원
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MTIxMTc2MywtMTkxNTk1NDQ5OV19
+eyJoaXN0b3J5IjpbLTY3NTgxOTU0MCwtMTkxNTk1NDQ5OV19
 -->
