@@ -23,7 +23,7 @@ Microsoft에서 개발한 소스코드 편집기 - mac, linux, windows 지원
 
 [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 
-### vscode plugins
+### vscode extensions
 
 EditorConfig for VS Code
 
@@ -41,6 +41,6 @@ Prettier - Code formatter
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDgyMDQ5NzgsLTE5MTU5NTQ0OTldfQ
+eyJoaXN0b3J5IjpbLTIwMjI2NTU5ODYsLTE5MTU5NTQ0OTldfQ
 ==
 -->
