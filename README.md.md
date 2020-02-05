@@ -5,11 +5,15 @@
 
 ## 설치하기
 
-### nodejs : 
+### nodejs
 
-[https://nodejs.org/ko/](https://nodejs.org/ko/)
+Chrome V8 JavaScript 엔진으로 빌드된 JavaScript 런타임
+
+설치링크 [https://nodejs.org/ko/](https://nodejs.org/ko/)
 
 ### yarn
+
+npm i -g yarn
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MzM0NzM2LC0zMzI0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbLTU0NDczNzI5NywtMzMyNDU1MzYzXX0=
 -->
