@@ -13,7 +13,10 @@ Chrome V8 JavaScript 엔진으로 빌드된 JavaScript 런타임
 프로젝트의 의존성을 관리하는 JavaScript의 패키지 매니저
 > npm i -g yarn
 
-### vs
+### vscode
+멀티플랫폼 개발프로그램 : mac, windows 지원
+
+
 
 ## 프로젝트 생성
 
@@ -23,5 +26,5 @@ Chrome V8 JavaScript 엔진으로 빌드된 JavaScript 런타임
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MjEyOTk5MiwtMzMyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbLTE3MDA3MjU0MDgsLTMzMjQ1NTM2M119
 -->
