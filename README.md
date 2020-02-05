@@ -31,7 +31,7 @@ ESLint
 
 Korean Language Pack for Visual Studio Code
 
-Prettier - Code formatter
+	Prettier - Code formatter
 
 ## 프로젝트 생성
 
@@ -41,6 +41,6 @@ Prettier - Code formatter
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjI2NTU5ODYsLTE5MTU5NTQ0OTldfQ
-==
+eyJoaXN0b3J5IjpbLTE2MjkwMTk2MTAsLTIwMjI2NTU5ODYsLT
+E5MTU5NTQ0OTldfQ==
 -->
