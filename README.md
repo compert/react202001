@@ -52,11 +52,16 @@ Microsoft에서 개발한 소스코드 편집기 - mac, linux, windows 지원
 
 ### 프로젝트 구조
 
-	package.json : 프로젝트 의존 모듈 관리
+	.babelrc : babel 설정 파일
+	.editorconfig : EditorConfig 설정 파일
+	.eslintrc : Eslint 설정 파일
+	.giti
+	package.json : 프로젝트 정보와 의존 모듈(라이브러리) 관리
+	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDA0MTgyMTQsNzgxMzMwMjg5LDM5OD
-U1MDY2NywtMTQyMTM2NzY5NiwtMjAyMjY1NTk4NiwtMTkxNTk1
-NDQ5OV19
+eyJoaXN0b3J5IjpbMTM5Mzc3ODQ2LDc4MTMzMDI4OSwzOTg1NT
+A2NjcsLTE0MjEzNjc2OTYsLTIwMjI2NTU5ODYsLTE5MTU5NTQ0
+OTldfQ==
 -->
