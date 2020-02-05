@@ -61,13 +61,14 @@ Microsoft에서 개발한 소스코드 편집기 - mac, linux, windows 지원
 	package.json : 프로젝트 정보, 의존 모듈(라이브러리) 관리
 	src : 소스 폴더
 	public : 진입점 폴더(index.html)
-	src
+	src/index.js : Root 모듈
+	
 	
 	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMTcxOTExMiw3ODEzMzAyODksMzk4NT
-UwNjY3LC0xNDIxMzY3Njk2LC0yMDIyNjU1OTg2LC0xOTE1OTU0
-NDk5XX0=
+eyJoaXN0b3J5IjpbLTE3NDYzMzMyNTgsNzgxMzMwMjg5LDM5OD
+U1MDY2NywtMTQyMTM2NzY5NiwtMjAyMjY1NTk4NiwtMTkxNTk1
+NDQ5OV19
 -->
