@@ -62,12 +62,18 @@ Microsoft에서 개발한 소스코드 편집기 - mac, linux, windows 지원
 	public : 진입점 폴더(index.html)
 	src/index.js : Root 모듈
 	
-	
+## 문제해결
+
+### prettier 적용 회피
+
+	.prettierignore 파일을 프로젝트 루트에 추가함
+	//
+
 	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4OTczNTUxNiw3ODEzMzAyODksMzk4NT
-UwNjY3LC0xNDIxMzY3Njk2LC0yMDIyNjU1OTg2LC0xOTE1OTU0
-NDk5XX0=
+eyJoaXN0b3J5IjpbOTAzNDA2NTYwLC01ODk3MzU1MTYsNzgxMz
+MwMjg5LDM5ODU1MDY2NywtMTQyMTM2NzY5NiwtMjAyMjY1NTk4
+NiwtMTkxNTk1NDQ5OV19
 -->
