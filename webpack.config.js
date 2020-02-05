@@ -1,4 +1,4 @@
-require("@babel/polyfill")
+require('@babel/polyfill')
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
@@ -33,9 +33,9 @@ const config = mode => {
               loader: 'css-loader',
               options: {
                 modules: {
-                  localIdentName: devMode ?
-                    '[path][name]__[local]--[hash:base64:5]':
-                    '[name]__[local]--[hash:base64:5]',
+                  localIdentName: devMode
+                    ? '[path][name]__[local]--[hash:base64:5]'
+                    : '[name]__[local]--[hash:base64:5]',
                 },
                 importLoaders: 1,
                 sourceMap: true,
@@ -56,6 +56,6 @@ const config = mode => {
 }
 
 module.exports = (env, argv) => {
-  const { mode } = argv
+  const {mode} = argv
   return config(mode)
 }

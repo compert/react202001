@@ -2,7 +2,7 @@ import React from 'react'
 import TodoWrapper from './TodoWrapper'
 
 const Root = () => {
-    return <TodoWrapper />
+  return <TodoWrapper />
 }
 
 export default Root

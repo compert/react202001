@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, {useState, useEffect} from 'react'
 import axios from 'axios'
 import s from './style.scss'
 import TodoTitle from '../TodoTitle'
@@ -9,9 +9,7 @@ const TodoWrapper = () => {
 
   const getTodoList = async () => {
     try {
-      const {data: todoList} = await axios.get(
-        'https://jsonplaceholder.typicode.com/todos'
-      )
+      const {data: todoList} = await axios.get('https://jsonplaceholder.typicode.com/todos')
       setTodoList(todoList.splice(0, 10))
     } catch (e) {
       console.log(e)
