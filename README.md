@@ -52,11 +52,11 @@ Microsoft에서 개발한 소스코드 편집기 - mac, linux, windows 지원
 
 ### 프로젝트 구조
 
-	package.json :
+	package.json : 프로젝트 의존 모듈 관리
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgxNDYxNTksNzgxMzMwMjg5LDM5ODU1MD
-Y2NywtMTQyMTM2NzY5NiwtMjAyMjY1NTk4NiwtMTkxNTk1NDQ5
-OV19
+eyJoaXN0b3J5IjpbLTIwNDA0MTgyMTQsNzgxMzMwMjg5LDM5OD
+U1MDY2NywtMTQyMTM2NzY5NiwtMjAyMjY1NTk4NiwtMTkxNTk1
+NDQ5OV19
 -->
