@@ -2,7 +2,6 @@
 
 사이트 개발을 위한 react 기본 설정 가이드입니다.
 
-
 ## 설치하기
 
 ### nodejs
@@ -68,7 +67,7 @@ Microsoft에서 개발한 소스코드 편집기 - mac, linux, windows 지원
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDYzMzMyNTgsNzgxMzMwMjg5LDM5OD
-U1MDY2NywtMTQyMTM2NzY5NiwtMjAyMjY1NTk4NiwtMTkxNTk1
-NDQ5OV19
+eyJoaXN0b3J5IjpbLTU4OTczNTUxNiw3ODEzMzAyODksMzk4NT
+UwNjY3LC0xNDIxMzY3Njk2LC0yMDIyNjU1OTg2LC0xOTE1OTU0
+NDk5XX0=
 -->
