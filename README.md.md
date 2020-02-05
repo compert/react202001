@@ -14,7 +14,7 @@ Chrome V8 JavaScript 엔진으로 빌드된 JavaScript 런타임
 > npm i -g yarn
 
 ### vscode
-멀티플랫폼 개발프로그램 : mac, windows 지원
+Microsoft에서 개발한 소스코드 편집기 - mac, linux, windows 지원
 
 
 
@@ -26,5 +26,5 @@ Chrome V8 JavaScript 엔진으로 빌드된 JavaScript 런타임
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDA3MjU0MDgsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbLTE5MTU5NTQ0OTksLTMzMjQ1NTM2M119
 -->
