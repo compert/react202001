@@ -33,12 +33,13 @@ Microsoft에서 개발한 소스코드 편집기 - mac, linux, windows 지원
 ## 프로젝트 생성 및 git 저장소 내려받기
 
 > mkdir react202001
+> cd react202001
 > git clone https://github.com/compert/react202001.git
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMTA2NTUwMCwtMTQyMTM2NzY5NiwtMj
-AyMjY1NTk4NiwtMTkxNTk1NDQ5OV19
+eyJoaXN0b3J5IjpbMzk4NTUwNjY3LC0xNDIxMzY3Njk2LC0yMD
+IyNjU1OTg2LC0xOTE1OTU0NDk5XX0=
 -->
