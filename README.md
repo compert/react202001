@@ -36,10 +36,18 @@ Microsoft에서 개발한 소스코드 편집기 - mac, linux, windows 지원
 > cd react202001
 > git clone https://github.com/compert/react202001.git
 
+### 프로젝트 실행
 
+> yarn start
+
+
+### 프로젝트 배포
+
+개발배포
+> 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk4NTUwNjY3LC0xNDIxMzY3Njk2LC0yMD
-IyNjU1OTg2LC0xOTE1OTU0NDk5XX0=
+eyJoaXN0b3J5IjpbLTkyMTc3NTgsMzk4NTUwNjY3LC0xNDIxMz
+Y3Njk2LC0yMDIyNjU1OTg2LC0xOTE1OTU0NDk5XX0=
 -->
