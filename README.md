@@ -60,13 +60,13 @@ Microsoft에서 개발한 소스코드 편집기 - mac, linux, windows 지원
 	jest.config.js : Jest 설정 파일
 	package.json : 프로젝트 정보와 의존 모듈(라이브러리) 관리
 	src : 소스 폴더
-	public : index.ht
+	public : 엔트리 포인트 폴더(index.html) 
 	
 	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQzMTE0NjU3LDc4MTMzMDI4OSwzOTg1NT
+eyJoaXN0b3J5IjpbMjU0MzU2NTEzLDc4MTMzMDI4OSwzOTg1NT
 A2NjcsLTE0MjEzNjc2OTYsLTIwMjI2NTU5ODYsLTE5MTU5NTQ0
 OTldfQ==
 -->
