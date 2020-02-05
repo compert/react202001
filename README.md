@@ -25,12 +25,9 @@ Microsoft에서 개발한 소스코드 편집기 - mac, linux, windows 지원
 
 ### vscode extensions
 
-EditorConfig for VS Code
-
-ESLint
-
-Korean Language Pack for Visual Studio Code
-
+	EditorConfig for VS Code
+	ESLint
+	Korean Language Pack for Visual Studio Code
 	Prettier - Code formatter
 
 ## 프로젝트 생성
@@ -41,6 +38,6 @@ Korean Language Pack for Visual Studio Code
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjkwMTk2MTAsLTIwMjI2NTU5ODYsLT
+eyJoaXN0b3J5IjpbLTE0MjEzNjc2OTYsLTIwMjI2NTU5ODYsLT
 E5MTU5NTQ0OTldfQ==
 -->
