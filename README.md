@@ -84,7 +84,7 @@ var, let, const로 선언할 수 있으나 var은 쓰지 않기로 정함
 * 들여 쓰기는 공백 두 개로 함
 * 세미콜론은 쓰지 않음 - 아래 링크 참조
 [https://bakyeono.net/post/2018-01-19-javascript-use-semicolon-or-not.html](https://bakyeono.net/post/2018-01-19-javascript-use-semicolon-or-not.html)
-
+* 모든 괄호 - (),{}
 
 
 ## 문제해결
@@ -97,8 +97,8 @@ var, let, const로 선언할 수 있으나 var은 쓰지 않기로 정함
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NDE4MjE0NiwtMTU0ODQ1MzE5Miw4Mz
-A4NjY1NDEsMjcyMDg1MTUyLC01ODk3MzU1MTYsNzgxMzMwMjg5
-LDM5ODU1MDY2NywtMTQyMTM2NzY5NiwtMjAyMjY1NTk4NiwtMT
-kxNTk1NDQ5OV19
+eyJoaXN0b3J5IjpbLTEzNjg3NjA2NjQsLTE1NDg0NTMxOTIsOD
+MwODY2NTQxLDI3MjA4NTE1MiwtNTg5NzM1NTE2LDc4MTMzMDI4
+OSwzOTg1NTA2NjcsLTE0MjEzNjc2OTYsLTIwMjI2NTU5ODYsLT
+E5MTU5NTQ0OTldfQ==
 -->
