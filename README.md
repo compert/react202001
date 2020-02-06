@@ -79,6 +79,11 @@ var, let, const로 선언할 수 있으나 var은 쓰지 않기로 정함
 > const : 변경 불가(상수)
 > let : 변경 가능(변수)
 
+### 코딩 포맷
+
+들여 쓰기는 공백 두 개로 함
+세미콜론은 쓰지 않음
+
 ## 문제해결
 
 ### prettier 적용 회피 - 기존 프로젝트 수정 시
@@ -89,8 +94,8 @@ var, let, const로 선언할 수 있으나 var은 쓰지 않기로 정함
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkwNzEzNDQ4LC0xNTQ4NDUzMTkyLDgzMD
-g2NjU0MSwyNzIwODUxNTIsLTU4OTczNTUxNiw3ODEzMzAyODks
-Mzk4NTUwNjY3LC0xNDIxMzY3Njk2LC0yMDIyNjU1OTg2LC0xOT
-E1OTU0NDk5XX0=
+eyJoaXN0b3J5IjpbLTEwOTMwMzQ3ODcsLTE1NDg0NTMxOTIsOD
+MwODY2NTQxLDI3MjA4NTE1MiwtNTg5NzM1NTE2LDc4MTMzMDI4
+OSwzOTg1NTA2NjcsLTE0MjEzNjc2OTYsLTIwMjI2NTU5ODYsLT
+E5MTU5NTQ0OTldfQ==
 -->
