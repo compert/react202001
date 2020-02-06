@@ -88,8 +88,9 @@ var, const, let으로 선언할 수 있으나 var은 쓰지 않기로 정함
 * 모든 괄호의 시작과 끝에 공백을  넣지 않음
 ~~[ 1, 2 ]~~=> [1, 2]
 ~~{ a: 1 }~~ => {a: 1}
-* if 문 예시
-
+* if 문 예시 : if (a === b) {}
+* for 문 예시 : for (let i = 0; i < 5; i++) {}
+* 
 
 ## 문제해결
 
@@ -101,7 +102,7 @@ var, const, let으로 선언할 수 있으나 var은 쓰지 않기로 정함
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMDQzODc0MywtMTM5OTE5MzA4NSwtMT
+eyJoaXN0b3J5IjpbMTU3ODY3ODA0MCwtMTM5OTE5MzA4NSwtMT
 U0ODQ1MzE5Miw4MzA4NjY1NDEsMjcyMDg1MTUyLC01ODk3MzU1
 MTYsNzgxMzMwMjg5LDM5ODU1MDY2NywtMTQyMTM2NzY5NiwtMj
 AyMjY1NTk4NiwtMTkxNTk1NDQ5OV19
