@@ -115,6 +115,10 @@ Template literals : 백틱(`) (grave accent)을 사용하는 경우
 You've got a message!\`
 * 문자열 내에 표현식(변수 등)을 출력하는 경우 : 예) const msg = \`Hello, ${name}\`
 
+### 비교연산자
+
+* 동등(==), 부등(!=) 연산자 : 
+
 ## 문제해결
 
 ### prettier 적용 회피 - 기존 프로젝트 수정 시
@@ -125,11 +129,11 @@ You've got a message!\`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgzNzc1MTI4LC0xODk0MjU0OTU5LC0xOT
-E3MzUwMDMxLDEwNjU4MTIwNDYsLTgwODM3NTg3LC0xMzU3OTI4
-NzcxLDE1NTgxNzU3NDEsLTE5Mjk2ODQwNSwxMzkwMTc1NTk4LD
-Q2MDY5MTYxOCwtMTg4NjI1Mjg3Miw0NTgwNzczMDcsLTE5Nzk1
-NzM5NDcsMTU3ODY3ODA0MCwtMTM5OTE5MzA4NSwtMTU0ODQ1Mz
-E5Miw4MzA4NjY1NDEsMjcyMDg1MTUyLC01ODk3MzU1MTYsNzgx
-MzMwMjg5XX0=
+eyJoaXN0b3J5IjpbLTE0ODI3NzM2NjIsLTE4OTQyNTQ5NTksLT
+E5MTczNTAwMzEsMTA2NTgxMjA0NiwtODA4Mzc1ODcsLTEzNTc5
+Mjg3NzEsMTU1ODE3NTc0MSwtMTkyOTY4NDA1LDEzOTAxNzU1OT
+gsNDYwNjkxNjE4LC0xODg2MjUyODcyLDQ1ODA3NzMwNywtMTk3
+OTU3Mzk0NywxNTc4Njc4MDQwLC0xMzk5MTkzMDg1LC0xNTQ4ND
+UzMTkyLDgzMDg2NjU0MSwyNzIwODUxNTIsLTU4OTczNTUxNiw3
+ODEzMzAyODldfQ==
 -->
