@@ -102,7 +102,8 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 * class와 image를 제외한 모든 파일명은 CamelCase로 함 : 예) index.js, index.html, styles.scss
 * 이미지 파일은 소문자 + 언더바(underscore)로 함 : 예) arrow_right.png
 * 모든 로컬 변수와 함수명은 CamelCase로 함 : 예) getCurrentState, 
-* 전역 변수는 가급적
+* style 변수는 소문자 + 하이픈(-)으로 함 : 예) red-theme
+* 
 ## 문제해결
 
 ### prettier 적용 회피 - 기존 프로젝트 수정 시
@@ -113,10 +114,10 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDg4MTIyMDksNDYwNjkxNjE4LC0xOD
-g2MjUyODcyLDQ1ODA3NzMwNywtMTk3OTU3Mzk0NywxNTc4Njc4
-MDQwLC0xMzk5MTkzMDg1LC0xNTQ4NDUzMTkyLDgzMDg2NjU0MS
-wyNzIwODUxNTIsLTU4OTczNTUxNiw3ODEzMzAyODksMzk4NTUw
-NjY3LC0xNDIxMzY3Njk2LC0yMDIyNjU1OTg2LC0xOTE1OTU0ND
-k5XX0=
+eyJoaXN0b3J5IjpbMTM5MDE3NTU5OCw0NjA2OTE2MTgsLTE4OD
+YyNTI4NzIsNDU4MDc3MzA3LC0xOTc5NTczOTQ3LDE1Nzg2Nzgw
+NDAsLTEzOTkxOTMwODUsLTE1NDg0NTMxOTIsODMwODY2NTQxLD
+I3MjA4NTE1MiwtNTg5NzM1NTE2LDc4MTMzMDI4OSwzOTg1NTA2
+NjcsLTE0MjEzNjc2OTYsLTIwMjI2NTU5ODYsLTE5MTU5NTQ0OT
+ldfQ==
 -->
