@@ -65,6 +65,8 @@ build 폴더 내의 모든 파일을 서버로 업로드하면 적용 완료
 	package.json : 프로젝트 정보, 의존 모듈(라이브러리) 관리
 	webpack.config.js : Webpack 설정 파일
 
+### 4
+
 ## 문제해결
 
 ### prettier 적용 회피 - 기존 프로젝트 수정 시
@@ -75,8 +77,8 @@ build 폴더 내의 모든 파일을 서버로 업로드하면 적용 완료
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDg0NTMxOTIsODMwODY2NTQxLDI3Mj
-A4NTE1MiwtNTg5NzM1NTE2LDc4MTMzMDI4OSwzOTg1NTA2Njcs
-LTE0MjEzNjc2OTYsLTIwMjI2NTU5ODYsLTE5MTU5NTQ0OTldfQ
-==
+eyJoaXN0b3J5IjpbMTk3MjkxNzk1NSwtMTU0ODQ1MzE5Miw4Mz
+A4NjY1NDEsMjcyMDg1MTUyLC01ODk3MzU1MTYsNzgxMzMwMjg5
+LDM5ODU1MDY2NywtMTQyMTM2NzY5NiwtMjAyMjY1NTk4NiwtMT
+kxNTk1NDQ5OV19
 -->
