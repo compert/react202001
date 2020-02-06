@@ -39,14 +39,12 @@ Microsoft에서 개발한 소스코드 편집기 - mac, linux, windows 지원
 
 > yarn start
 
-### 프로젝트 배포
+### 프로젝트 빌드
 
-개발배포
-
+> 개발빌드
 > yarn build
 
-서비스배포
-
+> 서비스빌드
 > yarn build:prod
 
 build 폴더 내의 모든 파일을 서버로 업로드하면 적용 완료
@@ -103,8 +101,9 @@ var, const, let으로 선언할 수 있으나 var은 쓰지 않기로 정함
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzk1NzM5NDcsMTU3ODY3ODA0MCwtMT
-M5OTE5MzA4NSwtMTU0ODQ1MzE5Miw4MzA4NjY1NDEsMjcyMDg1
-MTUyLC01ODk3MzU1MTYsNzgxMzMwMjg5LDM5ODU1MDY2NywtMT
-QyMTM2NzY5NiwtMjAyMjY1NTk4NiwtMTkxNTk1NDQ5OV19
+eyJoaXN0b3J5IjpbMTcyMzA3NDI4NSwtMTk3OTU3Mzk0NywxNT
+c4Njc4MDQwLC0xMzk5MTkzMDg1LC0xNTQ4NDUzMTkyLDgzMDg2
+NjU0MSwyNzIwODUxNTIsLTU4OTczNTUxNiw3ODEzMzAyODksMz
+k4NTUwNjY3LC0xNDIxMzY3Njk2LC0yMDIyNjU1OTg2LC0xOTE1
+OTU0NDk5XX0=
 -->
