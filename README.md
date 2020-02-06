@@ -99,8 +99,8 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 ### 네이밍 규칙
 
 * class 명과 class 파일명은 PascalCase로 함 : 예) TodoList, TodoList.js
-* class와 image를 제외한 모든 파일명은 camelCase로 함 : 예) index.js, index.html, styles.scss
-* 이미지 파일은 소문자 + 언더바(underscore)로 함 : 예) arrow_right.png
+* image 파일은 소문자 + 언더바(underscore)로 함 : 예) arrow_right.png
+* class와 image를 제외한 모든 파일명은 camelCase로 함 : 예) index.html, styles.scss
 * 모든 로컬 변수와 함수명은 camelCase로 함 : 예) userId, getCurrentState
 * style 변수는 소문자 + 하이픈(-)으로 함 : 예) red-theme, base-color:  #fff;
 
@@ -125,11 +125,11 @@ You've got a message!\`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTI5MDc3NzYsLTE4OTQyNTQ5NTksLT
-E5MTczNTAwMzEsMTA2NTgxMjA0NiwtODA4Mzc1ODcsLTEzNTc5
-Mjg3NzEsMTU1ODE3NTc0MSwtMTkyOTY4NDA1LDEzOTAxNzU1OT
-gsNDYwNjkxNjE4LC0xODg2MjUyODcyLDQ1ODA3NzMwNywtMTk3
-OTU3Mzk0NywxNTc4Njc4MDQwLC0xMzk5MTkzMDg1LC0xNTQ4ND
-UzMTkyLDgzMDg2NjU0MSwyNzIwODUxNTIsLTU4OTczNTUxNiw3
-ODEzMzAyODldfQ==
+eyJoaXN0b3J5IjpbNzgzNzc1MTI4LC0xODk0MjU0OTU5LC0xOT
+E3MzUwMDMxLDEwNjU4MTIwNDYsLTgwODM3NTg3LC0xMzU3OTI4
+NzcxLDE1NTgxNzU3NDEsLTE5Mjk2ODQwNSwxMzkwMTc1NTk4LD
+Q2MDY5MTYxOCwtMTg4NjI1Mjg3Miw0NTgwNzczMDcsLTE5Nzk1
+NzM5NDcsMTU3ODY3ODA0MCwtMTM5OTE5MzA4NSwtMTU0ODQ1Mz
+E5Miw4MzA4NjY1NDEsMjcyMDg1MTUyLC01ODk3MzU1MTYsNzgx
+MzMwMjg5XX0=
 -->
