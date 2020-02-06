@@ -75,7 +75,9 @@ var, let, const로 선언할 수 있음
 > 호이스팅(hoisting - 끌어올림) 매커니즘에 따르므로 Scope에 혼선이 생김
 
 > ES6 새로운 변수 선언 - const, let
->
+> 블록 단위{}로 변수의 범위가 제한됨
+> const : 한 번 선언한 값에 대해 변경 불가(상수)
+> let : 변경 가능
 
 ## 문제해결
 
@@ -87,8 +89,8 @@ var, let, const로 선언할 수 있음
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDUyNjU1OTksLTE1NDg0NTMxOTIsOD
-MwODY2NTQxLDI3MjA4NTE1MiwtNTg5NzM1NTE2LDc4MTMzMDI4
-OSwzOTg1NTA2NjcsLTE0MjEzNjc2OTYsLTIwMjI2NTU5ODYsLT
-E5MTU5NTQ0OTldfQ==
+eyJoaXN0b3J5IjpbLTk2NTE0Mzk1MSwtMTU0ODQ1MzE5Miw4Mz
+A4NjY1NDEsMjcyMDg1MTUyLC01ODk3MzU1MTYsNzgxMzMwMjg5
+LDM5ODU1MDY2NywtMTQyMTM2NzY5NiwtMjAyMjY1NTk4NiwtMT
+kxNTk1NDQ5OV19
 -->
