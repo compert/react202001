@@ -109,7 +109,7 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 항상 작은 따옴표(')로 처리함 : 예) 'React'
 
 Template literals : 백틱(`) (grave accent)을 사용하는 경우
-* String 내의 객체를 출력하는 경우 : 예) `` ` ``Hello, ${name}\`
+* String 내의 객체를 출력하는 경우 : 예) \`Hello, ${name}\`
 * 여러줄 처리
 
 ## 문제해결
@@ -122,11 +122,11 @@ Template literals : 백틱(`) (grave accent)을 사용하는 경우
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTQzOTI0MDMsLTEzNTc5Mjg3NzEsMT
-U1ODE3NTc0MSwtMTkyOTY4NDA1LDEzOTAxNzU1OTgsNDYwNjkx
-NjE4LC0xODg2MjUyODcyLDQ1ODA3NzMwNywtMTk3OTU3Mzk0Ny
-wxNTc4Njc4MDQwLC0xMzk5MTkzMDg1LC0xNTQ4NDUzMTkyLDgz
-MDg2NjU0MSwyNzIwODUxNTIsLTU4OTczNTUxNiw3ODEzMzAyOD
-ksMzk4NTUwNjY3LC0xNDIxMzY3Njk2LC0yMDIyNjU1OTg2LC0x
-OTE1OTU0NDk5XX0=
+eyJoaXN0b3J5IjpbLTgwODM3NTg3LC0xMzU3OTI4NzcxLDE1NT
+gxNzU3NDEsLTE5Mjk2ODQwNSwxMzkwMTc1NTk4LDQ2MDY5MTYx
+OCwtMTg4NjI1Mjg3Miw0NTgwNzczMDcsLTE5Nzk1NzM5NDcsMT
+U3ODY3ODA0MCwtMTM5OTE5MzA4NSwtMTU0ODQ1MzE5Miw4MzA4
+NjY1NDEsMjcyMDg1MTUyLC01ODk3MzU1MTYsNzgxMzMwMjg5LD
+M5ODU1MDY2NywtMTQyMTM2NzY5NiwtMjAyMjY1NTk4NiwtMTkx
+NTk1NDQ5OV19
 -->
