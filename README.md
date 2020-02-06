@@ -114,7 +114,7 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 Template literals : 백틱(`) (grave accent)을 사용하는 경우
 * 여러 줄 처리: 예) const msg = \`Hello, user!
 You've got a message!\`
-* 문자열 내에 객체를 출력하는 경우 : 예) const msg = \`Hello, ${name}\`
+* 문자열 내에 표현식(변수 등)을 출력하는 경우 : 예) const msg = \`Hello, ${name}\`
 
 ## 문제해결
 
@@ -126,11 +126,11 @@ You've got a message!\`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNDE3ODkyMCwtMTg5NDI1NDk1OSwtMT
-kxNzM1MDAzMSwxMDY1ODEyMDQ2LC04MDgzNzU4NywtMTM1Nzky
-ODc3MSwxNTU4MTc1NzQxLC0xOTI5Njg0MDUsMTM5MDE3NTU5OC
-w0NjA2OTE2MTgsLTE4ODYyNTI4NzIsNDU4MDc3MzA3LC0xOTc5
-NTczOTQ3LDE1Nzg2NzgwNDAsLTEzOTkxOTMwODUsLTE1NDg0NT
-MxOTIsODMwODY2NTQxLDI3MjA4NTE1MiwtNTg5NzM1NTE2LDc4
-MTMzMDI4OV19
+eyJoaXN0b3J5IjpbLTc4NTkxODE2LC0xODk0MjU0OTU5LC0xOT
+E3MzUwMDMxLDEwNjU4MTIwNDYsLTgwODM3NTg3LC0xMzU3OTI4
+NzcxLDE1NTgxNzU3NDEsLTE5Mjk2ODQwNSwxMzkwMTc1NTk4LD
+Q2MDY5MTYxOCwtMTg4NjI1Mjg3Miw0NTgwNzczMDcsLTE5Nzk1
+NzM5NDcsMTU3ODY3ODA0MCwtMTM5OTE5MzA4NSwtMTU0ODQ1Mz
+E5Miw4MzA4NjY1NDEsMjcyMDg1MTUyLC01ODk3MzU1MTYsNzgx
+MzMwMjg5XX0=
 -->
