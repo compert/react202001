@@ -104,7 +104,8 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 * 모든 로컬 변수와 함수명은 CamelCase로 함 : 예) userId, getCurrentState
 * style 변수는 소문자 + 하이픈(-)으로 함 : 예) red-theme, base-color:  #fff;
 * 
-### String 표시
+
+### 문자열 처리
 
 항상 작은 따옴표(')로 처리함 : 예) 'React'
 
@@ -122,11 +123,11 @@ Template literals : 백틱(`) (grave accent)을 사용하는 경우
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwODM3NTg3LC04MDgzNzU4NywtMTM1Nz
-kyODc3MSwxNTU4MTc1NzQxLC0xOTI5Njg0MDUsMTM5MDE3NTU5
-OCw0NjA2OTE2MTgsLTE4ODYyNTI4NzIsNDU4MDc3MzA3LC0xOT
-c5NTczOTQ3LDE1Nzg2NzgwNDAsLTEzOTkxOTMwODUsLTE1NDg0
-NTMxOTIsODMwODY2NTQxLDI3MjA4NTE1MiwtNTg5NzM1NTE2LD
-c4MTMzMDI4OSwzOTg1NTA2NjcsLTE0MjEzNjc2OTYsLTIwMjI2
-NTU5ODZdfQ==
+eyJoaXN0b3J5IjpbMTkyNTM3MTM4NCwtODA4Mzc1ODcsLTEzNT
+c5Mjg3NzEsMTU1ODE3NTc0MSwtMTkyOTY4NDA1LDEzOTAxNzU1
+OTgsNDYwNjkxNjE4LC0xODg2MjUyODcyLDQ1ODA3NzMwNywtMT
+k3OTU3Mzk0NywxNTc4Njc4MDQwLC0xMzk5MTkzMDg1LC0xNTQ4
+NDUzMTkyLDgzMDg2NjU0MSwyNzIwODUxNTIsLTU4OTczNTUxNi
+w3ODEzMzAyODksMzk4NTUwNjY3LC0xNDIxMzY3Njk2LC0yMDIy
+NjU1OTg2XX0=
 -->
