@@ -101,7 +101,7 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 * class 명과 class 파일명은 PascalCase로 함 : 예) TodoList, TodoList.js
 * class와 image를 제외한 모든 파일명은 CamelCase로 함 : 예) index.js, index.html, styles.scss
 * 이미지 파일은 소문자 + 언더바(underscore)로 함 : 예) arrow_right.png
-* 모든 로컬 변수와 함수명은 CamelCase로 함 : 예) getCurrentState, 
+* 모든 로컬 변수와 함수명은 CamelCase로 함 : 예) getCurrentState, currentMallId
 * style 변수는 소문자 + 하이픈(-)으로 함 : 예) red-theme, base-color:  #fff;
 * 
  
@@ -115,10 +115,10 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjk2ODQwNSwxMzkwMTc1NTk4LDQ2MD
-Y5MTYxOCwtMTg4NjI1Mjg3Miw0NTgwNzczMDcsLTE5Nzk1NzM5
-NDcsMTU3ODY3ODA0MCwtMTM5OTE5MzA4NSwtMTU0ODQ1MzE5Mi
-w4MzA4NjY1NDEsMjcyMDg1MTUyLC01ODk3MzU1MTYsNzgxMzMw
-Mjg5LDM5ODU1MDY2NywtMTQyMTM2NzY5NiwtMjAyMjY1NTk4Ni
-wtMTkxNTk1NDQ5OV19
+eyJoaXN0b3J5IjpbLTM0NjE5ODg5MSwtMTkyOTY4NDA1LDEzOT
+AxNzU1OTgsNDYwNjkxNjE4LC0xODg2MjUyODcyLDQ1ODA3NzMw
+NywtMTk3OTU3Mzk0NywxNTc4Njc4MDQwLC0xMzk5MTkzMDg1LC
+0xNTQ4NDUzMTkyLDgzMDg2NjU0MSwyNzIwODUxNTIsLTU4OTcz
+NTUxNiw3ODEzMzAyODksMzk4NTUwNjY3LC0xNDIxMzY3Njk2LC
+0yMDIyNjU1OTg2LC0xOTE1OTU0NDk5XX0=
 -->
