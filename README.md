@@ -69,7 +69,7 @@ build 폴더 내의 모든 파일을 서버로 업로드하면 적용 완료
 
 ### JavaScript 변수
  
-var, let, const로 선언할 수 있으나 var은 쓰지 않기로 정함
+var, const let 으ㄹ 로 선언할 수 있으나 var은 쓰지 않기로 정함
 
 > ES6 이전의 변수 선언 - var
 > 호이스팅(hoisting - 끌어올림) 매커니즘에 따르므로 Scope에 혼선이 생김
@@ -78,7 +78,7 @@ var, let, const로 선언할 수 있으나 var은 쓰지 않기로 정함
 > 블록 단위{}로 변수의 범위가 제한됨
 > const : 변경 불가(상수)
 > let : 변경 가능(변수)
-> 
+> 변경되지 않는 변수의 경우 const를 쓰는 것이 성능과 가독성에 좋음
 
 ### 코딩 포맷
 
@@ -100,7 +100,7 @@ var, let, const로 선언할 수 있으나 var은 쓰지 않기로 정함
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNzk3MzQyNSwtMTM5OTE5MzA4NSwtMT
+eyJoaXN0b3J5IjpbMjA1Mzk4NzAyNywtMTM5OTE5MzA4NSwtMT
 U0ODQ1MzE5Miw4MzA4NjY1NDEsMjcyMDg1MTUyLC01ODk3MzU1
 MTYsNzgxMzMwMjg5LDM5ODU1MDY2NywtMTQyMTM2NzY5NiwtMj
 AyMjY1NTk4NiwtMTkxNTk1NDQ5OV19
