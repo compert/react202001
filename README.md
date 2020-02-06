@@ -87,7 +87,7 @@ VSCode에서 Eslint + Prettier의 조합으로 저장 시 자동으로 적용됨
 ~~const a = 1;~~ => const a = 1
 [https://bakyeono.net/post/2018-01-19-javascript-use-semicolon-or-not.html](https://bakyeono.net/post/2018-01-19-javascript-use-semicolon-or-not.html)
 * 모든 괄호의 시작과 끝에 공백을  넣지 않음
-~~for ( let i = 0; i < 5; i++ ) {~~ => for (let i = 0; i < 5; i++) {
+~~if ( a === b ) {~~ => if (a === b) {
 ~~[ 1, 2 ]~~ => [1, 2]
 ~~{ a: 1 }~~ => {a: 1}
 * if 문 예시 : if (a === b) {}
@@ -104,9 +104,9 @@ VSCode에서 Eslint + Prettier의 조합으로 저장 시 자동으로 적용됨
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU4MDc3MzA3LC0xOTc5NTczOTQ3LDE1Nz
-g2NzgwNDAsLTEzOTkxOTMwODUsLTE1NDg0NTMxOTIsODMwODY2
-NTQxLDI3MjA4NTE1MiwtNTg5NzM1NTE2LDc4MTMzMDI4OSwzOT
-g1NTA2NjcsLTE0MjEzNjc2OTYsLTIwMjI2NTU5ODYsLTE5MTU5
-NTQ0OTldfQ==
+eyJoaXN0b3J5IjpbLTE2NDMxOTYxMTcsNDU4MDc3MzA3LC0xOT
+c5NTczOTQ3LDE1Nzg2NzgwNDAsLTEzOTkxOTMwODUsLTE1NDg0
+NTMxOTIsODMwODY2NTQxLDI3MjA4NTE1MiwtNTg5NzM1NTE2LD
+c4MTMzMDI4OSwzOTg1NTA2NjcsLTE0MjEzNjc2OTYsLTIwMjI2
+NTU5ODYsLTE5MTU5NTQ0OTldfQ==
 -->
