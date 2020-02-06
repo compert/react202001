@@ -117,9 +117,9 @@ You've got a message!\`
 
 ### 비교연산자
 
-항상 일치(\=\=\=), 불일치(!\=\=) 연산자를 사용하기로 함 : 예) if (a === b) {}
+일치(\=\=\=), 불일치(!\=\=) 연산자를 사용하기로 함 : 예) if (a === b) {}
 
-* 동등(\=\=), 부등(!\=) 연산자 : 자료형이 일치하지 않는 경우 적절한 자료형으로 변환 시도함
+* 동등(\=\=), 부등(!\=) 연산자 : 자료형이 다를 경우 적절한 자료형으로 변환 시도함
 * 일치(\=\=\=), 불일치(!\=\=) : 자료형 변환 없이 두 연산자가 같은지 판별함
 
 ## 문제해결
@@ -132,11 +132,11 @@ You've got a message!\`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNjM4NTU0MiwtMTg5NDI1NDk1OSwtMT
-kxNzM1MDAzMSwxMDY1ODEyMDQ2LC04MDgzNzU4NywtMTM1Nzky
-ODc3MSwxNTU4MTc1NzQxLC0xOTI5Njg0MDUsMTM5MDE3NTU5OC
-w0NjA2OTE2MTgsLTE4ODYyNTI4NzIsNDU4MDc3MzA3LC0xOTc5
-NTczOTQ3LDE1Nzg2NzgwNDAsLTEzOTkxOTMwODUsLTE1NDg0NT
-MxOTIsODMwODY2NTQxLDI3MjA4NTE1MiwtNTg5NzM1NTE2LDc4
-MTMzMDI4OV19
+eyJoaXN0b3J5IjpbLTE3MDcxOTcwNjQsLTE4OTQyNTQ5NTksLT
+E5MTczNTAwMzEsMTA2NTgxMjA0NiwtODA4Mzc1ODcsLTEzNTc5
+Mjg3NzEsMTU1ODE3NTc0MSwtMTkyOTY4NDA1LDEzOTAxNzU1OT
+gsNDYwNjkxNjE4LC0xODg2MjUyODcyLDQ1ODA3NzMwNywtMTk3
+OTU3Mzk0NywxNTc4Njc4MDQwLC0xMzk5MTkzMDg1LC0xNTQ4ND
+UzMTkyLDgzMDg2NjU0MSwyNzIwODUxNTIsLTU4OTczNTUxNiw3
+ODEzMzAyODldfQ==
 -->
