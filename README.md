@@ -95,6 +95,8 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 * 문장 끝에 공백은 쓰지 않음
 * 빈줄은 두 줄 이상 쓰지 않음
 * 파일 제일 끝에 빈줄을 넣음 - Editorconfig에서 넣어줌
+* class명은 PascalCase로 함 : 예) TodoList
+* 
 
 ## 문제해결
 
@@ -106,7 +108,7 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjM4Njc4MzgsNDU4MDc3MzA3LC0xOT
+eyJoaXN0b3J5IjpbLTE0MDc0OTk4MjAsNDU4MDc3MzA3LC0xOT
 c5NTczOTQ3LDE1Nzg2NzgwNDAsLTEzOTkxOTMwODUsLTE1NDg0
 NTMxOTIsODMwODY2NTQxLDI3MjA4NTE1MiwtNTg5NzM1NTE2LD
 c4MTMzMDI4OSwzOTg1NTA2NjcsLTE0MjEzNjc2OTYsLTIwMjI2
