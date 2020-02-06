@@ -78,6 +78,7 @@ var, let, const로 선언할 수 있으나 var은 쓰지 않기로 정함
 > 블록 단위{}로 변수의 범위가 제한됨
 > const : 변경 불가(상수)
 > let : 변경 가능(변수)
+> 
 
 ### 코딩 포맷
 
@@ -99,8 +100,8 @@ var, let, const로 선언할 수 있으나 var은 쓰지 않기로 정함
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTkxOTMwODUsLTE1NDg0NTMxOTIsOD
-MwODY2NTQxLDI3MjA4NTE1MiwtNTg5NzM1NTE2LDc4MTMzMDI4
-OSwzOTg1NTA2NjcsLTE0MjEzNjc2OTYsLTIwMjI2NTU5ODYsLT
-E5MTU5NTQ0OTldfQ==
+eyJoaXN0b3J5IjpbLTMzNzk3MzQyNSwtMTM5OTE5MzA4NSwtMT
+U0ODQ1MzE5Miw4MzA4NjY1NDEsMjcyMDg1MTUyLC01ODk3MzU1
+MTYsNzgxMzMwMjg5LDM5ODU1MDY2NywtMTQyMTM2NzY5NiwtMj
+AyMjY1NTk4NiwtMTkxNTk1NDQ5OV19
 -->
