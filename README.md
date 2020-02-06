@@ -83,7 +83,7 @@ var, const, let으로 선언할 수 있으나 var은 쓰지 않기로 정함
 VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동으로 적용됨
 
 * 들여 쓰기는 공백 두 개로 함
-* 문장 끝에 세미콜론은 쓰지 않음 - 아래 링크 참조
+* 문장 끝에 세미콜론은 쓰지 않음(js 파일마 - 아래 링크 참조
 ~~const a = 1;~~ => const a = 1
 [https://bakyeono.net/post/2018-01-19-javascript-use-semicolon-or-not.html](https://bakyeono.net/post/2018-01-19-javascript-use-semicolon-or-not.html)
 * 모든 괄호의 시작과 끝에 공백을  넣지 않음
@@ -102,7 +102,8 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 * class와 image를 제외한 모든 파일명은 CamelCase로 함 : 예) index.js, index.html, styles.scss
 * 이미지 파일은 소문자 + 언더바(underscore)로 함 : 예) arrow_right.png
 * 모든 로컬 변수와 함수명은 CamelCase로 함 : 예) getCurrentState, 
-* style 변수는 소문자 + 하이픈(-)으로 함 : 예) red-theme
+* style 변수는 소문자 + 하이픈(-)으로 함 : 예) red-theme, base-color:  #ad141e;
+* 
 * 
 ## 문제해결
 
@@ -114,10 +115,10 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MDE3NTU5OCw0NjA2OTE2MTgsLTE4OD
-YyNTI4NzIsNDU4MDc3MzA3LC0xOTc5NTczOTQ3LDE1Nzg2Nzgw
-NDAsLTEzOTkxOTMwODUsLTE1NDg0NTMxOTIsODMwODY2NTQxLD
-I3MjA4NTE1MiwtNTg5NzM1NTE2LDc4MTMzMDI4OSwzOTg1NTA2
-NjcsLTE0MjEzNjc2OTYsLTIwMjI2NTU5ODYsLTE5MTU5NTQ0OT
-ldfQ==
+eyJoaXN0b3J5IjpbMTg0OTg2MjY3NiwxMzkwMTc1NTk4LDQ2MD
+Y5MTYxOCwtMTg4NjI1Mjg3Miw0NTgwNzczMDcsLTE5Nzk1NzM5
+NDcsMTU3ODY3ODA0MCwtMTM5OTE5MzA4NSwtMTU0ODQ1MzE5Mi
+w4MzA4NjY1NDEsMjcyMDg1MTUyLC01ODk3MzU1MTYsNzgxMzMw
+Mjg5LDM5ODU1MDY2NywtMTQyMTM2NzY5NiwtMjAyMjY1NTk4Ni
+wtMTkxNTk1NDQ5OV19
 -->
