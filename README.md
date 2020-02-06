@@ -92,7 +92,9 @@ VSCode에서 Eslint + Prettier의 조합으로 저장 시 자동으로 적용됨
 ~~{ a: 1 }~~ => {a: 1}
 * if 문 예시 : if (a === b) {}
 * for 문 예시 : for (let i = 0; i < 5; i++) {}
-* 문장 끝의 공백은 쓰
+* 문장 끝의 공백은 쓰지 않음
+* 빈줄은 두 줄 이상 쓰지 않음
+* 파일 제일 끝에는 빈줄을 넣음 - Editorconfig에서 넣어줌
 
 ## 문제해결
 
@@ -104,9 +106,9 @@ VSCode에서 Eslint + Prettier의 조합으로 저장 시 자동으로 적용됨
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzOTExNDI1LDQ1ODA3NzMwNywtMTk3OT
-U3Mzk0NywxNTc4Njc4MDQwLC0xMzk5MTkzMDg1LC0xNTQ4NDUz
-MTkyLDgzMDg2NjU0MSwyNzIwODUxNTIsLTU4OTczNTUxNiw3OD
-EzMzAyODksMzk4NTUwNjY3LC0xNDIxMzY3Njk2LC0yMDIyNjU1
-OTg2LC0xOTE1OTU0NDk5XX0=
+eyJoaXN0b3J5IjpbLTc3NjQ2NDk3OSw0NTgwNzczMDcsLTE5Nz
+k1NzM5NDcsMTU3ODY3ODA0MCwtMTM5OTE5MzA4NSwtMTU0ODQ1
+MzE5Miw4MzA4NjY1NDEsMjcyMDg1MTUyLC01ODk3MzU1MTYsNz
+gxMzMwMjg5LDM5ODU1MDY2NywtMTQyMTM2NzY5NiwtMjAyMjY1
+NTk4NiwtMTkxNTk1NDQ5OV19
 -->
