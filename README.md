@@ -44,10 +44,10 @@ Microsoft에서 개발한 소스코드 편집기 - mac, linux, windows 지원
 > 개발빌드
 > yarn build
 
-> 서비스빌드 : 소스 난독화
+> 서비스빌드 : 소스 난독화 및 압축 적용됨
 > yarn build:prod
 
-build 폴더 내의 모든 파일을 서버로 업로드하면 적용 완료
+build 폴더 내의 모든 파일을 서버로 업로드하면 배포 완료
 
 ### 프로젝트 구조
 
@@ -104,7 +104,7 @@ VSCode에서 Eslint + Prettier의 조합으로 저장 시 자동으로 적용됨
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNTk3MzM4LC0xOTc5NTczOTQ3LDE1Nz
+eyJoaXN0b3J5IjpbNDU4MDc3MzA3LC0xOTc5NTczOTQ3LDE1Nz
 g2NzgwNDAsLTEzOTkxOTMwODUsLTE1NDg0NTMxOTIsODMwODY2
 NTQxLDI3MjA4NTE1MiwtNTg5NzM1NTE2LDc4MTMzMDI4OSwzOT
 g1NTA2NjcsLTE0MjEzNjc2OTYsLTIwMjI2NTU5ODYsLTE5MTU5
