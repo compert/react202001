@@ -98,9 +98,15 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 
 ### 참조(import) 규칙
 
-외부 라이브러리 참조는 파일 상단에 우선적으로 처리함
+* 외부 라이브러리 참조는 파일 상단에 우선적으로 처리함
+* 내부 상대 경로 모듈 참조는 외부 라이브러리 참조 뒤에 빈 줄 하나 띄우고 처리함
 
-내부 상대 경로 모듈 참조는 
+> 예)
+> import  React  from  'react'
+> import {Link, Route, Switch, BrowserRouter  as  Router} from  'react-router-dom'
+> 
+> import  Home  from  './Home'
+> import  About  from  './About'
 
 ### 네이밍 규칙
 
@@ -138,7 +144,7 @@ You've got a message!\`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNzk3NzA1OCwtOTcxMTIxNDg0LC0xNz
+eyJoaXN0b3J5IjpbMTE2Mzc4Nzc4MCwtOTcxMTIxNDg0LC0xNz
 A3MTk3MDY0LC0xODk0MjU0OTU5LC0xOTE3MzUwMDMxLDEwNjU4
 MTIwNDYsLTgwODM3NTg3LC0xMzU3OTI4NzcxLDE1NTgxNzU3ND
 EsLTE5Mjk2ODQwNSwxMzkwMTc1NTk4LDQ2MDY5MTYxOCwtMTg4
