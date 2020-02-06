@@ -99,7 +99,8 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 ### 네이밍 규칙
 
 * class 명과 class 파일명은 PascalCase로 함 : 예) TodoList, TodoList.js
-* class를 제외한 모든 파일명은 CamelCase로 함 : 예) index.js, styles.scss, 
+* class와 image를 제외한 모든 파일명은 CamelCase로 함 : 예) index.js, index.html, styles.scss
+* 이미지는 
 
 ## 문제해결
 
@@ -111,7 +112,7 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNTk3MDY4Niw0NTgwNzczMDcsLTE5Nz
+eyJoaXN0b3J5IjpbLTIxMjE0Nzc1NCw0NTgwNzczMDcsLTE5Nz
 k1NzM5NDcsMTU3ODY3ODA0MCwtMTM5OTE5MzA4NSwtMTU0ODQ1
 MzE5Miw4MzA4NjY1NDEsMjcyMDg1MTUyLC01ODk3MzU1MTYsNz
 gxMzMwMjg5LDM5ODU1MDY2NywtMTQyMTM2NzY5NiwtMjAyMjY1
