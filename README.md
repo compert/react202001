@@ -41,10 +41,10 @@ Microsoft에서 개발한 소스코드 편집기 - mac, linux, windows 지원
 
 ### 프로젝트 빌드
 
-> 개발빌드
+개발빌드
 > yarn build
 
-> 서비스빌드 : 소스 난독화 및 압축 적용됨
+서비스빌드 : 소스 난독화 및 압축 적용됨
 > yarn build:prod
 
 build 폴더 내의 모든 파일을 서버로 업로드하면 배포 완료
@@ -132,11 +132,11 @@ You've got a message!\`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDcxOTcwNjQsLTE4OTQyNTQ5NTksLT
-E5MTczNTAwMzEsMTA2NTgxMjA0NiwtODA4Mzc1ODcsLTEzNTc5
-Mjg3NzEsMTU1ODE3NTc0MSwtMTkyOTY4NDA1LDEzOTAxNzU1OT
-gsNDYwNjkxNjE4LC0xODg2MjUyODcyLDQ1ODA3NzMwNywtMTk3
-OTU3Mzk0NywxNTc4Njc4MDQwLC0xMzk5MTkzMDg1LC0xNTQ4ND
-UzMTkyLDgzMDg2NjU0MSwyNzIwODUxNTIsLTU4OTczNTUxNiw3
-ODEzMzAyODldfQ==
+eyJoaXN0b3J5IjpbLTk3MTEyMTQ4NCwtMTcwNzE5NzA2NCwtMT
+g5NDI1NDk1OSwtMTkxNzM1MDAzMSwxMDY1ODEyMDQ2LC04MDgz
+NzU4NywtMTM1NzkyODc3MSwxNTU4MTc1NzQxLC0xOTI5Njg0MD
+UsMTM5MDE3NTU5OCw0NjA2OTE2MTgsLTE4ODYyNTI4NzIsNDU4
+MDc3MzA3LC0xOTc5NTczOTQ3LDE1Nzg2NzgwNDAsLTEzOTkxOT
+MwODUsLTE1NDg0NTMxOTIsODMwODY2NTQxLDI3MjA4NTE1Miwt
+NTg5NzM1NTE2XX0=
 -->
