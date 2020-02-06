@@ -96,6 +96,12 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 * 빈줄은 두 줄 이상 쓰지 않음
 * 파일 제일 끝에 빈줄을 넣음 - Editorconfig에서 넣어줌
 
+### 참조(import) 규칙
+
+외부 라이브러리 참조는 파일 상단에 우선적으로 처리함
+
+내부 상대 경로 모듈 참조는 
+
 ### 네이밍 규칙
 
 * class 명과 class 파일명은 PascalCase로 함 : 예) TodoList, TodoList.js
@@ -132,11 +138,11 @@ You've got a message!\`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MTEyMTQ4NCwtMTcwNzE5NzA2NCwtMT
-g5NDI1NDk1OSwtMTkxNzM1MDAzMSwxMDY1ODEyMDQ2LC04MDgz
-NzU4NywtMTM1NzkyODc3MSwxNTU4MTc1NzQxLC0xOTI5Njg0MD
-UsMTM5MDE3NTU5OCw0NjA2OTE2MTgsLTE4ODYyNTI4NzIsNDU4
-MDc3MzA3LC0xOTc5NTczOTQ3LDE1Nzg2NzgwNDAsLTEzOTkxOT
-MwODUsLTE1NDg0NTMxOTIsODMwODY2NTQxLDI3MjA4NTE1Miwt
-NTg5NzM1NTE2XX0=
+eyJoaXN0b3J5IjpbMTIzNzk3NzA1OCwtOTcxMTIxNDg0LC0xNz
+A3MTk3MDY0LC0xODk0MjU0OTU5LC0xOTE3MzUwMDMxLDEwNjU4
+MTIwNDYsLTgwODM3NTg3LC0xMzU3OTI4NzcxLDE1NTgxNzU3ND
+EsLTE5Mjk2ODQwNSwxMzkwMTc1NTk4LDQ2MDY5MTYxOCwtMTg4
+NjI1Mjg3Miw0NTgwNzczMDcsLTE5Nzk1NzM5NDcsMTU3ODY3OD
+A0MCwtMTM5OTE5MzA4NSwtMTU0ODQ1MzE5Miw4MzA4NjY1NDEs
+MjcyMDg1MTUyXX0=
 -->
