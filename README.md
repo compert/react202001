@@ -80,8 +80,11 @@ var, const, let으로 선언할 수 있으나 var은 쓰지 않기로 정함
 
 ### 코딩 포맷
 
+코딩 포맷은 Eslint + Pre
+
 * 들여 쓰기는 공백 두 개로 함
-* 문장 끝세미콜론은 쓰지 않음 - 아래 링크 참조
+* 문장 끝에 세미콜론은 쓰지 않음 - 아래 링크 참조
+~~const a = 1;~~ => const a = 1
 [https://bakyeono.net/post/2018-01-19-javascript-use-semicolon-or-not.html](https://bakyeono.net/post/2018-01-19-javascript-use-semicolon-or-not.html)
 * 모든 괄호의 시작과 끝에 공백을  넣지 않음
 ~~for ( let i = 0; i < 5; i++ ) {~~ => for (let i = 0; i < 5; i++) {
@@ -101,7 +104,7 @@ var, const, let으로 선언할 수 있으나 var은 쓰지 않기로 정함
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc5NjYyMTQ3LC0xOTc5NTczOTQ3LDE1Nz
+eyJoaXN0b3J5IjpbNTc2MzE4NzIwLC0xOTc5NTczOTQ3LDE1Nz
 g2NzgwNDAsLTEzOTkxOTMwODUsLTE1NDg0NTMxOTIsODMwODY2
 NTQxLDI3MjA4NTE1MiwtNTg5NzM1NTE2LDc4MTMzMDI4OSwzOT
 g1NTA2NjcsLTE0MjEzNjc2OTYsLTIwMjI2NTU5ODYsLTE5MTU5
