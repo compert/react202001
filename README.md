@@ -71,10 +71,11 @@ build 폴더 내의 모든 파일을 서버로 업로드하면 적용 완료
  
 var, let, const로 선언할 수 있음
 
-* es6 이전의 변수 선언
-var : 호이스팅(hoisting - 끌어올림) 매커니즘에 따르므로 Scope에 혼선이 생김
+> ES6 이전의 변수 선언 - var
+> 호이스팅(hoisting - 끌어올림) 매커니즘에 따르므로 Scope에 혼선이 생김
 
-
+> ES6 새로운 변수 선언 - const, let
+>
 
 ## 문제해결
 
@@ -86,8 +87,8 @@ var : 호이스팅(hoisting - 끌어올림) 매커니즘에 따르므로 Scope�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MzU4MSwtMTU0ODQ1MzE5Miw4MzA4Nj
-Y1NDEsMjcyMDg1MTUyLC01ODk3MzU1MTYsNzgxMzMwMjg5LDM5
-ODU1MDY2NywtMTQyMTM2NzY5NiwtMjAyMjY1NTk4NiwtMTkxNT
-k1NDQ5OV19
+eyJoaXN0b3J5IjpbLTEzMDUyNjU1OTksLTE1NDg0NTMxOTIsOD
+MwODY2NTQxLDI3MjA4NTE1MiwtNTg5NzM1NTE2LDc4MTMzMDI4
+OSwzOTg1NTA2NjcsLTE0MjEzNjc2OTYsLTIwMjI2NTU5ODYsLT
+E5MTU5NTQ0OTldfQ==
 -->
