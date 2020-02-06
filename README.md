@@ -16,13 +16,13 @@ Chrome V8 JavaScript 엔진으로 빌드된 JavaScript 런타임
 
 > npm i -g yarn
 
-### vscode
+### VSCode
 
 Microsoft에서 개발한 소스코드 편집기 - mac, linux, windows 지원
 
 [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 
-### vscode extensions
+### VSCode extensions
 
 	EditorConfig for VS Code
 	ESLint
@@ -44,7 +44,7 @@ Microsoft에서 개발한 소스코드 편집기 - mac, linux, windows 지원
 > 개발빌드
 > yarn build
 
-> 서비스빌드
+> 서비스빌드 : 소스 난독화
 > yarn build:prod
 
 build 폴더 내의 모든 파일을 서버로 업로드하면 적용 완료
@@ -80,7 +80,7 @@ var, const, let으로 선언할 수 있으나 var은 쓰지 않기로 정함
 
 ### 코딩 포맷
 
-코딩 포맷은 Eslint + Pre
+VSCode에서 Eslint + Prettier의 조합으로 저장 시 자동으로 적용됨
 
 * 들여 쓰기는 공백 두 개로 함
 * 문장 끝에 세미콜론은 쓰지 않음 - 아래 링크 참조
@@ -104,7 +104,7 @@ var, const, let으로 선언할 수 있으나 var은 쓰지 않기로 정함
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc2MzE4NzIwLC0xOTc5NTczOTQ3LDE1Nz
+eyJoaXN0b3J5IjpbMTUyNTk3MzM4LC0xOTc5NTczOTQ3LDE1Nz
 g2NzgwNDAsLTEzOTkxOTMwODUsLTE1NDg0NTMxOTIsODMwODY2
 NTQxLDI3MjA4NTE1MiwtNTg5NzM1NTE2LDc4MTMzMDI4OSwzOT
 g1NTA2NjcsLTE0MjEzNjc2OTYsLTIwMjI2NTU5ODYsLTE5MTU5
