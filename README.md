@@ -67,7 +67,7 @@ build 폴더 내의 모든 파일을 서버로 업로드하면 적용 완료
 
 ## 문제해결
 
-### prettier 적용 회피
+### prettier 적용 회피 - 기존 프로젝트 수정 시
 
 	.prettierignore 파일을 프로젝트 루트에 추가함
 	# Ignore everything
@@ -75,7 +75,7 @@ build 폴더 내의 모든 파일을 서버로 업로드하면 적용 완료
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njc1OTY3MzMsODMwODY2NTQxLDI3Mj
+eyJoaXN0b3J5IjpbLTE1NDg0NTMxOTIsODMwODY2NTQxLDI3Mj
 A4NTE1MiwtNTg5NzM1NTE2LDc4MTMzMDI4OSwzOTg1NTA2Njcs
 LTE0MjEzNjc2OTYsLTIwMjI2NTU5ODYsLTE5MTU5NTQ0OTldfQ
 ==
