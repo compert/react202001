@@ -53,6 +53,9 @@ build 폴더 내의 모든 파일을 서버로 업로드하면 적용 완료
 
 ### 프로젝트 구조
 
+	src : 소스 폴더
+	public : 진입점 폴더(index.html)
+	src/index.js : Root 모듈
 	.babelrc : babel 설정 파일
 	.editorconfig : EditorConfig 설정 파일
 	.eslintrc : Eslint 설정 파일
@@ -60,10 +63,8 @@ build 폴더 내의 모든 파일을 서버로 업로드하면 적용 완료
 	.prettierrc : Prettier 설정 파일
 	jest.config.js : Jest 설정 파일
 	package.json : 프로젝트 정보, 의존 모듈(라이브러리) 관리
-	src : 소스 폴더
-	public : 진입점 폴더(index.html)
-	src/index.js : Root 모듈
-	
+	webpack.config.js : Webpack 설정 파일
+
 ## 문제해결
 
 ### prettier 적용 회피
@@ -74,7 +75,8 @@ build 폴더 내의 모든 파일을 서버로 업로드하면 적용 완료
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMwODY2NTQxLDI3MjA4NTE1MiwtNTg5Nz
-M1NTE2LDc4MTMzMDI4OSwzOTg1NTA2NjcsLTE0MjEzNjc2OTYs
-LTIwMjI2NTU5ODYsLTE5MTU5NTQ0OTldfQ==
+eyJoaXN0b3J5IjpbLTE5Njc1OTY3MzMsODMwODY2NTQxLDI3Mj
+A4NTE1MiwtNTg5NzM1NTE2LDc4MTMzMDI4OSwzOTg1NTA2Njcs
+LTE0MjEzNjc2OTYsLTIwMjI2NTU5ODYsLTE5MTU5NTQ0OTldfQ
+==
 -->
