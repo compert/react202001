@@ -106,8 +106,8 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 * 
 ### String 표시
 
-항상 작은 따옴표(')로 처리함 : 예) '
-String 내의 객체를 출력하거나 여러줄 처리를 할 때는  
+* 항상 작은 따옴표(')로 처리함 : 예) 'React'
+* String 내의 객체를 출력하거나 여러줄 처리를 할 때는  
 
 ## 문제해결
 
@@ -119,11 +119,11 @@ String 내의 객체를 출력하거나 여러줄 처리를 할 때는
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTc5Mjg3NzEsMTU1ODE3NTc0MSwtMT
-kyOTY4NDA1LDEzOTAxNzU1OTgsNDYwNjkxNjE4LC0xODg2MjUy
-ODcyLDQ1ODA3NzMwNywtMTk3OTU3Mzk0NywxNTc4Njc4MDQwLC
-0xMzk5MTkzMDg1LC0xNTQ4NDUzMTkyLDgzMDg2NjU0MSwyNzIw
-ODUxNTIsLTU4OTczNTUxNiw3ODEzMzAyODksMzk4NTUwNjY3LC
-0xNDIxMzY3Njk2LC0yMDIyNjU1OTg2LC0xOTE1OTU0NDk5XX0=
-
+eyJoaXN0b3J5IjpbMzY2MTI4Mjk3LC0xMzU3OTI4NzcxLDE1NT
+gxNzU3NDEsLTE5Mjk2ODQwNSwxMzkwMTc1NTk4LDQ2MDY5MTYx
+OCwtMTg4NjI1Mjg3Miw0NTgwNzczMDcsLTE5Nzk1NzM5NDcsMT
+U3ODY3ODA0MCwtMTM5OTE5MzA4NSwtMTU0ODQ1MzE5Miw4MzA4
+NjY1NDEsMjcyMDg1MTUyLC01ODk3MzU1MTYsNzgxMzMwMjg5LD
+M5ODU1MDY2NywtMTQyMTM2NzY5NiwtMjAyMjY1NTk4NiwtMTkx
+NTk1NDQ5OV19
 -->
