@@ -65,7 +65,10 @@ build 폴더 내의 모든 파일을 서버로 업로드하면 적용 완료
 	package.json : 프로젝트 정보, 의존 모듈(라이브러리) 관리
 	webpack.config.js : Webpack 설정 파일
 
-### 4
+### JavaScript 변수
+ 
+var, let, const로 선언할 수 있음
+
 
 ## 문제해결
 
@@ -77,8 +80,8 @@ build 폴더 내의 모든 파일을 서버로 업로드하면 적용 완료
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MjkxNzk1NSwtMTU0ODQ1MzE5Miw4Mz
-A4NjY1NDEsMjcyMDg1MTUyLC01ODk3MzU1MTYsNzgxMzMwMjg5
-LDM5ODU1MDY2NywtMTQyMTM2NzY5NiwtMjAyMjY1NTk4NiwtMT
-kxNTk1NDQ5OV19
+eyJoaXN0b3J5IjpbLTE4MzA4ODQxODksLTE1NDg0NTMxOTIsOD
+MwODY2NTQxLDI3MjA4NTE1MiwtNTg5NzM1NTE2LDc4MTMzMDI4
+OSwzOTg1NTA2NjcsLTE0MjEzNjc2OTYsLTIwMjI2NTU5ODYsLT
+E5MTU5NTQ0OTldfQ==
 -->
