@@ -108,12 +108,13 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 ### 문자열 처리
 
 항상 작은 따옴표(')로 처리함 : 예) 'React'
+문자열에 작은 따옴표가 있을 경우 Escape 처리 : 예) \'Hello, you\\'ve got a message'
 
 Template literals : 백틱(`) (grave accent)을 사용하는 경우
 * 여러 줄 처리: 예) const msg = \`Hello, user!
 You've got a message!\`
 * 문자열 내에 객체를 출력하는 경우 : 예) \`Hello, ${name}\`
-* 문자열에 작은 따옴표(')가 있을 경우 : 예) \`Hello, you've got a message\`
+* 문자열에 작은 따옴표(')가 있을 경우 : 예) \`\`
 
 ## 문제해결
 
@@ -125,11 +126,11 @@ You've got a message!\`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTI4OTEyMzksMTA2NTgxMjA0NiwtOD
-A4Mzc1ODcsLTEzNTc5Mjg3NzEsMTU1ODE3NTc0MSwtMTkyOTY4
-NDA1LDEzOTAxNzU1OTgsNDYwNjkxNjE4LC0xODg2MjUyODcyLD
-Q1ODA3NzMwNywtMTk3OTU3Mzk0NywxNTc4Njc4MDQwLC0xMzk5
-MTkzMDg1LC0xNTQ4NDUzMTkyLDgzMDg2NjU0MSwyNzIwODUxNT
-IsLTU4OTczNTUxNiw3ODEzMzAyODksMzk4NTUwNjY3LC0xNDIx
-MzY3Njk2XX0=
+eyJoaXN0b3J5IjpbMTA3NjIwNTQ4OSwxMDY1ODEyMDQ2LC04MD
+gzNzU4NywtMTM1NzkyODc3MSwxNTU4MTc1NzQxLC0xOTI5Njg0
+MDUsMTM5MDE3NTU5OCw0NjA2OTE2MTgsLTE4ODYyNTI4NzIsND
+U4MDc3MzA3LC0xOTc5NTczOTQ3LDE1Nzg2NzgwNDAsLTEzOTkx
+OTMwODUsLTE1NDg0NTMxOTIsODMwODY2NTQxLDI3MjA4NTE1Mi
+wtNTg5NzM1NTE2LDc4MTMzMDI4OSwzOTg1NTA2NjcsLTE0MjEz
+Njc2OTZdfQ==
 -->
