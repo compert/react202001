@@ -100,11 +100,13 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 
 * 외부 라이브러리 참조는 파일 상단에 우선적으로 처리함
 * 내부 모듈(상대 경로) 참조는 외부 라이브러리 참조 뒤에 빈 줄 하나 띄우고 처리함
+* 내부 모듈에서 공통 모듈은 상단에 배치하고 styles은 제일 하단에 배치함
 
 > 예)
 > import  React  from  'react'
 > import {Link, Route, Switch, BrowserRouter  as  Router} from  'react-router-dom'
 > 
+> import Util from '../utils'
 > import  Home  from  './Home'
 > import  About  from  './About'
 
@@ -144,11 +146,11 @@ You've got a message!\`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTY5Mjk0ODksLTk3MTEyMTQ4NCwtMT
-cwNzE5NzA2NCwtMTg5NDI1NDk1OSwtMTkxNzM1MDAzMSwxMDY1
-ODEyMDQ2LC04MDgzNzU4NywtMTM1NzkyODc3MSwxNTU4MTc1Nz
-QxLC0xOTI5Njg0MDUsMTM5MDE3NTU5OCw0NjA2OTE2MTgsLTE4
-ODYyNTI4NzIsNDU4MDc3MzA3LC0xOTc5NTczOTQ3LDE1Nzg2Nz
-gwNDAsLTEzOTkxOTMwODUsLTE1NDg0NTMxOTIsODMwODY2NTQx
-LDI3MjA4NTE1Ml19
+eyJoaXN0b3J5IjpbMTQ3NjYzNTkyNSwtOTcxMTIxNDg0LC0xNz
+A3MTk3MDY0LC0xODk0MjU0OTU5LC0xOTE3MzUwMDMxLDEwNjU4
+MTIwNDYsLTgwODM3NTg3LC0xMzU3OTI4NzcxLDE1NTgxNzU3ND
+EsLTE5Mjk2ODQwNSwxMzkwMTc1NTk4LDQ2MDY5MTYxOCwtMTg4
+NjI1Mjg3Miw0NTgwNzczMDcsLTE5Nzk1NzM5NDcsMTU3ODY3OD
+A0MCwtMTM5OTE5MzA4NSwtMTU0ODQ1MzE5Miw4MzA4NjY1NDEs
+MjcyMDg1MTUyXX0=
 -->
