@@ -92,7 +92,7 @@ VSCode에서 Eslint + Prettier의 조합으로 저장 시 자동으로 적용됨
 ~~{ a: 1 }~~ => {a: 1}
 * if 문 예시 : if (a === b) {}
 * for 문 예시 : for (let i = 0; i < 5; i++) {}
-* 
+* 문장 끝의 공백은 쓰
 
 ## 문제해결
 
@@ -104,9 +104,9 @@ VSCode에서 Eslint + Prettier의 조합으로 저장 시 자동으로 적용됨
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDMxOTYxMTcsNDU4MDc3MzA3LC0xOT
-c5NTczOTQ3LDE1Nzg2NzgwNDAsLTEzOTkxOTMwODUsLTE1NDg0
-NTMxOTIsODMwODY2NTQxLDI3MjA4NTE1MiwtNTg5NzM1NTE2LD
-c4MTMzMDI4OSwzOTg1NTA2NjcsLTE0MjEzNjc2OTYsLTIwMjI2
-NTU5ODYsLTE5MTU5NTQ0OTldfQ==
+eyJoaXN0b3J5IjpbMTAzOTExNDI1LDQ1ODA3NzMwNywtMTk3OT
+U3Mzk0NywxNTc4Njc4MDQwLC0xMzk5MTkzMDg1LC0xNTQ4NDUz
+MTkyLDgzMDg2NjU0MSwyNzIwODUxNTIsLTU4OTczNTUxNiw3OD
+EzMzAyODksMzk4NTUwNjY3LC0xNDIxMzY3Njk2LC0yMDIyNjU1
+OTg2LC0xOTE1OTU0NDk5XX0=
 -->
