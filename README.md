@@ -69,13 +69,13 @@ build 폴더 내의 모든 파일을 서버로 업로드하면 배포 완료
  
 var, const, let으로 선언할 수 있으나 var은 쓰지 않기로 정함
 
-* ES6 이전의 변수 선언 - var
-* 호이스팅(hoisting - 끌어올림) 매커니즘에 따르므로 Scope에 혼선이 생김
+> ES6 이전의 변수 선언 - var
+> 호이스팅(hoisting - 끌어올림) 매커니즘에 따르므로 Scope에 혼선이 생김
 
-* ES6 새로운 변수 선언 - const, let
-* 블록 단위{}로 변수의 범위가 제한됨
-* const : 변경 불가(상수)
- let : 변경 가능(변수)
+> ES6 새로운 변수 선언 - const, let
+> 블록 단위{}로 변수의 범위가 제한됨
+> const : 변경 불가(상수)
+> let : 변경 가능(변수)
 > 변경되지 않는 변수의 경우 const를 쓰는 것이 성능과 가독성에 좋음
 
 ### 코딩 포맷
@@ -122,11 +122,11 @@ Template literals : 백틱(`) (grave accent)을 사용하는 경우
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMjM4MjM2NSwtODA4Mzc1ODcsLTEzNT
-c5Mjg3NzEsMTU1ODE3NTc0MSwtMTkyOTY4NDA1LDEzOTAxNzU1
-OTgsNDYwNjkxNjE4LC0xODg2MjUyODcyLDQ1ODA3NzMwNywtMT
-k3OTU3Mzk0NywxNTc4Njc4MDQwLC0xMzk5MTkzMDg1LC0xNTQ4
-NDUzMTkyLDgzMDg2NjU0MSwyNzIwODUxNTIsLTU4OTczNTUxNi
-w3ODEzMzAyODksMzk4NTUwNjY3LC0xNDIxMzY3Njk2LC0yMDIy
-NjU1OTg2XX0=
+eyJoaXN0b3J5IjpbLTgwODM3NTg3LC04MDgzNzU4NywtMTM1Nz
+kyODc3MSwxNTU4MTc1NzQxLC0xOTI5Njg0MDUsMTM5MDE3NTU5
+OCw0NjA2OTE2MTgsLTE4ODYyNTI4NzIsNDU4MDc3MzA3LC0xOT
+c5NTczOTQ3LDE1Nzg2NzgwNDAsLTEzOTkxOTMwODUsLTE1NDg0
+NTMxOTIsODMwODY2NTQxLDI3MjA4NTE1MiwtNTg5NzM1NTE2LD
+c4MTMzMDI4OSwzOTg1NTA2NjcsLTE0MjEzNjc2OTYsLTIwMjI2
+NTU5ODZdfQ==
 -->
