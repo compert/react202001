@@ -80,7 +80,7 @@ var, const, let으로 선언할 수 있으나 var은 쓰지 않기로 정함
 
 ### 코딩 포맷
 
-VSCode에서 Eslint + Prettier의 조합으로 저장 시 자동으로 적용됨
+VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동으로 적용됨
 
 * 들여 쓰기는 공백 두 개로 함
 * 문장 끝에 세미콜론은 쓰지 않음 - 아래 링크 참조
@@ -92,9 +92,9 @@ VSCode에서 Eslint + Prettier의 조합으로 저장 시 자동으로 적용됨
 ~~{ a: 1 }~~ => {a: 1}
 * if 문 예시 : if (a === b) {}
 * for 문 예시 : for (let i = 0; i < 5; i++) {}
-* 문장 끝의 공백은 쓰지 않음
+* 문장 끝에 공백은 쓰지 않음
 * 빈줄은 두 줄 이상 쓰지 않음
-* 파일 제일 끝에는 빈줄을 넣음 - Editorconfig에서 넣어줌
+* 파일 제일 끝에 빈줄을 넣음 - Editorconfig에서 넣어줌
 
 ## 문제해결
 
@@ -106,9 +106,9 @@ VSCode에서 Eslint + Prettier의 조합으로 저장 시 자동으로 적용됨
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NjQ2NDk3OSw0NTgwNzczMDcsLTE5Nz
-k1NzM5NDcsMTU3ODY3ODA0MCwtMTM5OTE5MzA4NSwtMTU0ODQ1
-MzE5Miw4MzA4NjY1NDEsMjcyMDg1MTUyLC01ODk3MzU1MTYsNz
-gxMzMwMjg5LDM5ODU1MDY2NywtMTQyMTM2NzY5NiwtMjAyMjY1
-NTk4NiwtMTkxNTk1NDQ5OV19
+eyJoaXN0b3J5IjpbLTE1MjM4Njc4MzgsNDU4MDc3MzA3LC0xOT
+c5NTczOTQ3LDE1Nzg2NzgwNDAsLTEzOTkxOTMwODUsLTE1NDg0
+NTMxOTIsODMwODY2NTQxLDI3MjA4NTE1MiwtNTg5NzM1NTE2LD
+c4MTMzMDI4OSwzOTg1NTA2NjcsLTE0MjEzNjc2OTYsLTIwMjI2
+NTU5ODYsLTE5MTU5NTQ0OTldfQ==
 -->
