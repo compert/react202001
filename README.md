@@ -69,15 +69,15 @@ build 폴더 내의 모든 파일을 서버로 업로드하면 적용 완료
 
 ### JavaScript 변수
  
-var, let, const로 선언할 수 있음
+var, let, const로 선언할 수 있으나 var은 쓰지 않기로 정함
 
 > ES6 이전의 변수 선언 - var
 > 호이스팅(hoisting - 끌어올림) 매커니즘에 따르므로 Scope에 혼선이 생김
 
 > ES6 새로운 변수 선언 - const, let
 > 블록 단위{}로 변수의 범위가 제한됨
-> const : 한 번 선언한 값에 대해 변경 불가(상수)
-> let : 변경 가능
+> const : 변경 불가(상수)
+> let : 변경 가능(변수)
 
 ## 문제해결
 
@@ -89,8 +89,8 @@ var, let, const로 선언할 수 있음
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NTE0Mzk1MSwtMTU0ODQ1MzE5Miw4Mz
-A4NjY1NDEsMjcyMDg1MTUyLC01ODk3MzU1MTYsNzgxMzMwMjg5
-LDM5ODU1MDY2NywtMTQyMTM2NzY5NiwtMjAyMjY1NTk4NiwtMT
-kxNTk1NDQ5OV19
+eyJoaXN0b3J5IjpbMjkwNzEzNDQ4LC0xNTQ4NDUzMTkyLDgzMD
+g2NjU0MSwyNzIwODUxNTIsLTU4OTczNTUxNiw3ODEzMzAyODks
+Mzk4NTUwNjY3LC0xNDIxMzY3Njk2LC0yMDIyNjU1OTg2LC0xOT
+E1OTU0NDk5XX0=
 -->
