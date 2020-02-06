@@ -100,7 +100,8 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 
 * class 명과 class 파일명은 PascalCase로 함 : 예) TodoList, TodoList.js
 * class와 image를 제외한 모든 파일명은 CamelCase로 함 : 예) index.js, index.html, styles.scss
-* 이미지 파일은 소문자 + 언더바(underscore)로 함 : 예) 
+* 이미지 파일은 소문자 + 언더바(underscore)로 함 : 예) arrow_right.png
+* 
 
 ## 문제해결
 
@@ -112,9 +113,9 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU0OTU5Nzg5LDQ1ODA3NzMwNywtMTk3OT
-U3Mzk0NywxNTc4Njc4MDQwLC0xMzk5MTkzMDg1LC0xNTQ4NDUz
-MTkyLDgzMDg2NjU0MSwyNzIwODUxNTIsLTU4OTczNTUxNiw3OD
-EzMzAyODksMzk4NTUwNjY3LC0xNDIxMzY3Njk2LC0yMDIyNjU1
-OTg2LC0xOTE1OTU0NDk5XX0=
+eyJoaXN0b3J5IjpbLTE4ODYyNTI4NzIsNDU4MDc3MzA3LC0xOT
+c5NTczOTQ3LDE1Nzg2NzgwNDAsLTEzOTkxOTMwODUsLTE1NDg0
+NTMxOTIsODMwODY2NTQxLDI3MjA4NTE1MiwtNTg5NzM1NTE2LD
+c4MTMzMDI4OSwzOTg1NTA2NjcsLTE0MjEzNjc2OTYsLTIwMjI2
+NTU5ODYsLTE5MTU5NTQ0OTldfQ==
 -->
