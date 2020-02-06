@@ -69,7 +69,7 @@ build 폴더 내의 모든 파일을 서버로 업로드하면 적용 완료
 
 ### JavaScript 변수
  
-var, const let 으ㄹ 로 선언할 수 있으나 var은 쓰지 않기로 정함
+var, const, let으로 선언할 수 있으나 var은 쓰지 않기로 정함
 
 > ES6 이전의 변수 선언 - var
 > 호이스팅(hoisting - 끌어올림) 매커니즘에 따르므로 Scope에 혼선이 생김
@@ -88,6 +88,7 @@ var, const let 으ㄹ 로 선언할 수 있으나 var은 쓰지 않기로 정함
 * 모든 괄호의 시작과 끝에 공백을  넣지 않음
 ~~[ 1, 2 ]~~=> [1, 2]
 ~~{ a: 1 }~~ => {a: 1}
+* if 문 예시
 
 
 ## 문제해결
@@ -100,7 +101,7 @@ var, const let 으ㄹ 로 선언할 수 있으나 var은 쓰지 않기로 정함
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1Mzk4NzAyNywtMTM5OTE5MzA4NSwtMT
+eyJoaXN0b3J5IjpbMTQwMDQzODc0MywtMTM5OTE5MzA4NSwtMT
 U0ODQ1MzE5Miw4MzA4NjY1NDEsMjcyMDg1MTUyLC01ODk3MzU1
 MTYsNzgxMzMwMjg5LDM5ODU1MDY2NywtMTQyMTM2NzY5NiwtMj
 AyMjY1NTk4NiwtMTkxNTk1NDQ5OV19
