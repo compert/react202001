@@ -107,9 +107,10 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 ### String 표시
 
 항상 작은 따옴표(')로 처리함 : 예) 'React'
-> 백틱(` - Template literals)을 사용하는 경우
-> String 내의 객체를 출력하는 경우 : 예) `` ` ``Hello, ${name}\`
-> 거나 여러줄 처리를 할 때는  
+
+백틱(` - Template literals)을 사용하는 경우
+* String 내의 객체를 출력하는 경우 : 예) `` ` ``Hello, ${name}\`
+* 여러줄 처리
 
 ## 문제해결
 
@@ -121,7 +122,7 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE2ODA4MjQyLC0xMzU3OTI4NzcxLDE1NT
+eyJoaXN0b3J5IjpbODE1NTc1NjI0LC0xMzU3OTI4NzcxLDE1NT
 gxNzU3NDEsLTE5Mjk2ODQwNSwxMzkwMTc1NTk4LDQ2MDY5MTYx
 OCwtMTg4NjI1Mjg3Miw0NTgwNzczMDcsLTE5Nzk1NzM5NDcsMT
 U3ODY3ODA0MCwtMTM5OTE5MzA4NSwtMTU0ODQ1MzE5Miw4MzA4
