@@ -101,10 +101,13 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 * class 명과 class 파일명은 PascalCase로 함 : 예) TodoList, TodoList.js
 * class와 image를 제외한 모든 파일명은 CamelCase로 함 : 예) index.js, index.html, styles.scss
 * 이미지 파일은 소문자 + 언더바(underscore)로 함 : 예) arrow_right.png
-* 모든 로컬 변수와 함수명은 CamelCase로 함 : 예) getCurrentState, currentMallId
+* 모든 로컬 변수와 함수명은 CamelCase로 함 : 예) userId, getCurrentState
 * style 변수는 소문자 + 하이픈(-)으로 함 : 예) red-theme, base-color:  #fff;
 * 
- 
+### String 표시
+
+항상 작은 따옴표(')로 처리함. 
+
 ## 문제해결
 
 ### prettier 적용 회피 - 기존 프로젝트 수정 시
@@ -115,10 +118,10 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NjE5ODg5MSwtMTkyOTY4NDA1LDEzOT
-AxNzU1OTgsNDYwNjkxNjE4LC0xODg2MjUyODcyLDQ1ODA3NzMw
-NywtMTk3OTU3Mzk0NywxNTc4Njc4MDQwLC0xMzk5MTkzMDg1LC
-0xNTQ4NDUzMTkyLDgzMDg2NjU0MSwyNzIwODUxNTIsLTU4OTcz
-NTUxNiw3ODEzMzAyODksMzk4NTUwNjY3LC0xNDIxMzY3Njk2LC
-0yMDIyNjU1OTg2LC0xOTE1OTU0NDk5XX0=
+eyJoaXN0b3J5IjpbLTEwODI4NzMyNjIsLTE5Mjk2ODQwNSwxMz
+kwMTc1NTk4LDQ2MDY5MTYxOCwtMTg4NjI1Mjg3Miw0NTgwNzcz
+MDcsLTE5Nzk1NzM5NDcsMTU3ODY3ODA0MCwtMTM5OTE5MzA4NS
+wtMTU0ODQ1MzE5Miw4MzA4NjY1NDEsMjcyMDg1MTUyLC01ODk3
+MzU1MTYsNzgxMzMwMjg5LDM5ODU1MDY2NywtMTQyMTM2NzY5Ni
+wtMjAyMjY1NTk4NiwtMTkxNTk1NDQ5OV19
 -->
