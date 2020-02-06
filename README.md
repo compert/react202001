@@ -85,7 +85,8 @@ var, let, const로 선언할 수 있으나 var은 쓰지 않기로 정함
 * 세미콜론은 쓰지 않음 - 아래 링크 참조
 [https://bakyeono.net/post/2018-01-19-javascript-use-semicolon-or-not.html](https://bakyeono.net/post/2018-01-19-javascript-use-semicolon-or-not.html)
 * 모든 괄호의 시작과 끝에 공백을  넣지 않음
-[1
+~~[ 1, 2 ]~~=> [1, 2]
+~~{ a: 1 }~~ => {a: 1}
 
 
 ## 문제해결
@@ -98,8 +99,8 @@ var, let, const로 선언할 수 있으나 var은 쓰지 않기로 정함
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzOTE0MjAwNywtMTU0ODQ1MzE5Miw4Mz
-A4NjY1NDEsMjcyMDg1MTUyLC01ODk3MzU1MTYsNzgxMzMwMjg5
-LDM5ODU1MDY2NywtMTQyMTM2NzY5NiwtMjAyMjY1NTk4NiwtMT
-kxNTk1NDQ5OV19
+eyJoaXN0b3J5IjpbLTEzOTkxOTMwODUsLTE1NDg0NTMxOTIsOD
+MwODY2NTQxLDI3MjA4NTE1MiwtNTg5NzM1NTE2LDc4MTMzMDI4
+OSwzOTg1NTA2NjcsLTE0MjEzNjc2OTYsLTIwMjI2NTU5ODYsLT
+E5MTU5NTQ0OTldfQ==
 -->
