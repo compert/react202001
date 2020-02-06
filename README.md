@@ -117,8 +117,10 @@ You've got a message!\`
 
 ### 비교연산자
 
-* 동등(==), 부등(!=) 연산자 : 자료형이 일치하지 않는 경우 적절한 자료형으로 변환 시도함
-* 일치(\=\=\=`), 불일치(!==)
+항상 일치(\=\=\=), 불일치(!\=\=) 연산자를 사용하기로 함 : 예) if (a === b) {}
+
+* 동등(\=\=), 부등(!\=) 연산자 : 자료형이 일치하지 않는 경우 적절한 자료형으로 변환 시도함
+* 일치(\=\=\=), 불일치(!\=\=) : 자료형 변환 없이 두 연산자가 같은지 판별함
 
 ## 문제해결
 
@@ -130,7 +132,7 @@ You've got a message!\`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMjIyOTYyNCwtMTg5NDI1NDk1OSwtMT
+eyJoaXN0b3J5IjpbMTMxNjM4NTU0MiwtMTg5NDI1NDk1OSwtMT
 kxNzM1MDAzMSwxMDY1ODEyMDQ2LC04MDgzNzU4NywtMTM1Nzky
 ODc3MSwxNTU4MTc1NzQxLC0xOTI5Njg0MDUsMTM5MDE3NTU5OC
 w0NjA2OTE2MTgsLTE4ODYyNTI4NzIsNDU4MDc3MzA3LC0xOTc5
