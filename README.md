@@ -96,7 +96,7 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 * 빈줄은 두 줄 이상 쓰지 않음
 * 파일 제일 끝에 빈줄을 넣음 - Editorconfig에서 넣어줌
 * class명은 PascalCase로 함 : 예) TodoList
-* 모든 파일명은 CamelCase로 함 : 예) index.js, styles.scss
+* 모든 파일명은 CamelCase로 함 : 예) todindex.js, styles.scss
 
 ## 문제해결
 
@@ -108,9 +108,9 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MTA0MTg3LDQ1ODA3NzMwNywtMTk3OT
-U3Mzk0NywxNTc4Njc4MDQwLC0xMzk5MTkzMDg1LC0xNTQ4NDUz
-MTkyLDgzMDg2NjU0MSwyNzIwODUxNTIsLTU4OTczNTUxNiw3OD
-EzMzAyODksMzk4NTUwNjY3LC0xNDIxMzY3Njk2LC0yMDIyNjU1
-OTg2LC0xOTE1OTU0NDk5XX0=
+eyJoaXN0b3J5IjpbLTQwNzk1NTYyNiw0NTgwNzczMDcsLTE5Nz
+k1NzM5NDcsMTU3ODY3ODA0MCwtMTM5OTE5MzA4NSwtMTU0ODQ1
+MzE5Miw4MzA4NjY1NDEsMjcyMDg1MTUyLC01ODk3MzU1MTYsNz
+gxMzMwMjg5LDM5ODU1MDY2NywtMTQyMTM2NzY5NiwtMjAyMjY1
+NTk4NiwtMTkxNTk1NDQ5OV19
 -->
