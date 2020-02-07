@@ -140,7 +140,19 @@ You've got a message!\`
 ### class 내부 함수
 
 항상 Arrow Function으로 선언함
-> 예)
+~~~
+class BindTest extends React.Component {
+  handleClick = () => {
+    console.log(this)
+  }
+  render() {
+    return (
+      <button type='button' onClick={this.handleClick}>
+        Goodbye bind
+      </button>
+    )
+  }
+}
 ~~~
 
 ## 문제해결
@@ -153,7 +165,7 @@ You've got a message!\`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MzkyNDY5NSwtMTIzMjExMTM0OCwtMT
+eyJoaXN0b3J5IjpbLTYyMTEyNzEzOSwtMTIzMjExMTM0OCwtMT
 AyMDgyNzU0OCwtOTcxMTIxNDg0LC0xNzA3MTk3MDY0LC0xODk0
 MjU0OTU5LC0xOTE3MzUwMDMxLDEwNjU4MTIwNDYsLTgwODM3NT
 g3LC0xMzU3OTI4NzcxLDE1NTgxNzU3NDEsLTE5Mjk2ODQwNSwx
