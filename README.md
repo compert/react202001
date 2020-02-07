@@ -50,18 +50,19 @@ Microsoft에서 개발한 소스코드 편집기 - mac, linux, windows 지원
 build 폴더 내의 모든 파일을 서버로 업로드하면 배포 완료
 
 ### 프로젝트 구조
-
-	src : 소스 폴더
-	public : 진입점 폴더(index.html)
-	src/index.js : Root 모듈
-	.babelrc : babel 설정 파일
-	.editorconfig : EditorConfig 설정 파일
-	.eslintrc : Eslint 설정 파일
-	.gitignore : git 관리 대상 제외 파일
-	.prettierrc : Prettier 설정 파일
-	jest.config.js : Jest 설정 파일
-	package.json : 프로젝트 정보, 의존 모듈(라이브러리) 관리
-	webpack.config.js : Webpack 설정 파일
+~~~
+src : 소스 폴더
+public : 진입점 폴더(index.html)
+src/index.js : Root 모듈
+.babelrc : babel 설정 파일
+.editorconfig : EditorConfig 설정 파일
+.eslintrc : Eslint 설정 파일
+.gitignore : git 관리 대상 제외 파일
+.prettierrc : Prettier 설정 파일
+jest.config.js : Jest 설정 파일
+package.json : 프로젝트 정보, 의존 모듈(라이브러리) 관리
+webpack.config.js : Webpack 설정 파일
+~~~
 
 ## 기본 Guide
 
@@ -102,14 +103,15 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 * 내부 모듈(상대 경로) 참조는 외부 라이브러리 참조 뒤에 빈 줄 하나 띄우고 처리함
 * 내부 모듈에서 공통 모듈은 상단에 배치하고 styles은 제일 하단에 배치함
 
-> 예)
-> import  React  from  'react'
-> import {Link, Route, Switch, BrowserRouter  as  Router} from  'react-router-dom'
-> 
-> import Utils from '../utils'
-> import  Home  from  './Home'
-> import  About  from  './About'
-> import styles from './styles.scss'
+~~~
+import  React  from  'react'
+import {Link, Route, Switch, BrowserRouter  as  Router} from  'react-router-dom'
+ 
+import Utils from '../utils'
+import  Home  from  './Home'
+import  About  from  './About'
+import styles from './styles.scss'
+~~~
 
 ### 네이밍 규칙
 
@@ -165,11 +167,11 @@ class BindTest extends React.Component {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMTEyNzEzOSwtMTIzMjExMTM0OCwtMT
-AyMDgyNzU0OCwtOTcxMTIxNDg0LC0xNzA3MTk3MDY0LC0xODk0
-MjU0OTU5LC0xOTE3MzUwMDMxLDEwNjU4MTIwNDYsLTgwODM3NT
-g3LC0xMzU3OTI4NzcxLDE1NTgxNzU3NDEsLTE5Mjk2ODQwNSwx
-MzkwMTc1NTk4LDQ2MDY5MTYxOCwtMTg4NjI1Mjg3Miw0NTgwNz
-czMDcsLTE5Nzk1NzM5NDcsMTU3ODY3ODA0MCwtMTM5OTE5MzA4
-NSwtMTU0ODQ1MzE5Ml19
+eyJoaXN0b3J5IjpbLTEyNjk4NjkxODgsLTYyMTEyNzEzOSwtMT
+IzMjExMTM0OCwtMTAyMDgyNzU0OCwtOTcxMTIxNDg0LC0xNzA3
+MTk3MDY0LC0xODk0MjU0OTU5LC0xOTE3MzUwMDMxLDEwNjU4MT
+IwNDYsLTgwODM3NTg3LC0xMzU3OTI4NzcxLDE1NTgxNzU3NDEs
+LTE5Mjk2ODQwNSwxMzkwMTc1NTk4LDQ2MDY5MTYxOCwtMTg4Nj
+I1Mjg3Miw0NTgwNzczMDcsLTE5Nzk1NzM5NDcsMTU3ODY3ODA0
+MCwtMTM5OTE5MzA4NV19
 -->
