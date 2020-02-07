@@ -163,9 +163,11 @@ class BindTest extends React.Component {
 JavaScript의 변수가 false인 경우는 아래 5가지 경우 뿐
 > undefined, null, NaN, '', 0
 ~~~
-
+if (!undefined && !null && !NaN && !'' && !0 && !false) {
+  console.log(`!undefined && !null && !NaN && !'' && !0 && !false is true`)
+}
+출력: !undefined && !null && !NaN && !'' && !0 && !false is true
 ~~~
-변수가 아래의 4가지
 
 ## 문제해결
 
@@ -177,7 +179,7 @@ JavaScript의 변수가 false인 경우는 아래 5가지 경우 뿐
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTU5MDc2MDgsNzc1MTg1MDIzLC05ND
+eyJoaXN0b3J5IjpbLTEwMTIzNTc5MzgsNzc1MTg1MDIzLC05ND
 QzODc1ODgsLTYyMTEyNzEzOSwtMTIzMjExMTM0OCwtMTAyMDgy
 NzU0OCwtOTcxMTIxNDg0LC0xNzA3MTk3MDY0LC0xODk0MjU0OT
 U5LC0xOTE3MzUwMDMxLDEwNjU4MTIwNDYsLTgwODM3NTg3LC0x
