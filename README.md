@@ -160,13 +160,17 @@ class BindTest extends React.Component {
 
 ### 비어있는 변수 확인
 
-JavaScript의 변수가 false인 경우는 아래 5가지 경우 뿐
-> undefined, null, NaN, '', 0
+JavaScript의 변수가 false인 경우는 아래 6가지 경우 뿐임
+> undefined, null, NaN, '', 0, false
 ~~~
-if (!undefined && !null && !NaN && !'' && !0 && !false) {
+if (!undefined && !null && !NaN && !'' && !0 && !false) { // true
   console.log(`!undefined && !null && !NaN && !'' && !0 && !false is true`)
 }
-출력: !undefined && !null && !NaN && !'' && !0 && !false is true
+~~~
+
+따라서 비어있는 변수인지 체크할 때는 아래 방식으로 처리
+~~~
+
 ~~~
 
 ## 문제해결
@@ -179,11 +183,11 @@ if (!undefined && !null && !NaN && !'' && !0 && !false) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTIzNTc5MzgsNzc1MTg1MDIzLC05ND
-QzODc1ODgsLTYyMTEyNzEzOSwtMTIzMjExMTM0OCwtMTAyMDgy
-NzU0OCwtOTcxMTIxNDg0LC0xNzA3MTk3MDY0LC0xODk0MjU0OT
-U5LC0xOTE3MzUwMDMxLDEwNjU4MTIwNDYsLTgwODM3NTg3LC0x
-MzU3OTI4NzcxLDE1NTgxNzU3NDEsLTE5Mjk2ODQwNSwxMzkwMT
-c1NTk4LDQ2MDY5MTYxOCwtMTg4NjI1Mjg3Miw0NTgwNzczMDcs
-LTE5Nzk1NzM5NDddfQ==
+eyJoaXN0b3J5IjpbLTg3MzcwMjU2MCw3NzUxODUwMjMsLTk0ND
+M4NzU4OCwtNjIxMTI3MTM5LC0xMjMyMTExMzQ4LC0xMDIwODI3
+NTQ4LC05NzExMjE0ODQsLTE3MDcxOTcwNjQsLTE4OTQyNTQ5NT
+ksLTE5MTczNTAwMzEsMTA2NTgxMjA0NiwtODA4Mzc1ODcsLTEz
+NTc5Mjg3NzEsMTU1ODE3NTc0MSwtMTkyOTY4NDA1LDEzOTAxNz
+U1OTgsNDYwNjkxNjE4LC0xODg2MjUyODcyLDQ1ODA3NzMwNywt
+MTk3OTU3Mzk0N119
 -->
