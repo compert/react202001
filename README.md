@@ -142,10 +142,19 @@ You've got a message!\`
 항상 Arrow Function으로 선언함
 > 예)
 > class BindTest extends React.Component {
->  &nbsp;&nbsp;&nbsp;handleClick = () => {
->  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;console.log(this);
->  &nbsp;&nbsp;&nbsp;}
-> ㄴㅣㅏㅣㄴㅏㅣㅣ +
+> &nbsp;&nbsp;&nbsp;handleClick = () => {
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;console.log(this);
+> &nbsp;&nbsp;&nbsp;}
+> &nbsp;&nbsp;&nbsp;render() {
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return (
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<button type="button" onClick={this.handleClick}>
+> 
+        Goodbye bind
+      </button>
+    )
+  }
+}
+```
 ## 문제해결
 
 ### prettier 적용 회피 - 기존 프로젝트 수정 시
@@ -156,11 +165,11 @@ You've got a message!\`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjk4NjE0ODcsLTEyMzIxMTEzNDgsLT
-EwMjA4Mjc1NDgsLTk3MTEyMTQ4NCwtMTcwNzE5NzA2NCwtMTg5
-NDI1NDk1OSwtMTkxNzM1MDAzMSwxMDY1ODEyMDQ2LC04MDgzNz
-U4NywtMTM1NzkyODc3MSwxNTU4MTc1NzQxLC0xOTI5Njg0MDUs
-MTM5MDE3NTU5OCw0NjA2OTE2MTgsLTE4ODYyNTI4NzIsNDU4MD
-c3MzA3LC0xOTc5NTczOTQ3LDE1Nzg2NzgwNDAsLTEzOTkxOTMw
-ODUsLTE1NDg0NTMxOTJdfQ==
+eyJoaXN0b3J5IjpbLTI5MTY2OTA3MywtMTIzMjExMTM0OCwtMT
+AyMDgyNzU0OCwtOTcxMTIxNDg0LC0xNzA3MTk3MDY0LC0xODk0
+MjU0OTU5LC0xOTE3MzUwMDMxLDEwNjU4MTIwNDYsLTgwODM3NT
+g3LC0xMzU3OTI4NzcxLDE1NTgxNzU3NDEsLTE5Mjk2ODQwNSwx
+MzkwMTc1NTk4LDQ2MDY5MTYxOCwtMTg4NjI1Mjg3Miw0NTgwNz
+czMDcsLTE5Nzk1NzM5NDcsMTU3ODY3ODA0MCwtMTM5OTE5MzA4
+NSwtMTU0ODQ1MzE5Ml19
 -->
