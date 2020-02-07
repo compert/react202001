@@ -141,7 +141,7 @@ You've got a message!\`
 
 ### class 내부 함수
 
-항상 Arrow Function으로 선언함 - bind 호출의 불편
+항상 Arrow Function으로 선언함 - bind 생략
 ~~~
 class BindTest extends React.Component {
   handleClick = () => {
@@ -158,6 +158,8 @@ class BindTest extends React.Component {
 ~~~
 [https://ko.reactjs.org/docs/faq-functions.html](https://ko.reactjs.org/docs/faq-functions.html)
 
+### 변수
+
 ## 문제해결
 
 ### prettier 적용 회피 - 기존 프로젝트 수정 시
@@ -168,7 +170,7 @@ class BindTest extends React.Component {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMDczMTQzNSw3NzUxODUwMjMsLTk0ND
+eyJoaXN0b3J5IjpbLTg1NjExMDE3Niw3NzUxODUwMjMsLTk0ND
 M4NzU4OCwtNjIxMTI3MTM5LC0xMjMyMTExMzQ4LC0xMDIwODI3
 NTQ4LC05NzExMjE0ODQsLTE3MDcxOTcwNjQsLTE4OTQyNTQ5NT
 ksLTE5MTczNTAwMzEsMTA2NTgxMjA0NiwtODA4Mzc1ODcsLTEz
