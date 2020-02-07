@@ -70,10 +70,10 @@ webpack.config.js : Webpack 설정 파일
  
 var, const, let으로 선언할 수 있으나 var은 쓰지 않기로 정함
 
-> ES6 이전의 변수 선언 - var
+* ES6 이전의 변수 선언 - var
 > 호이스팅(hoisting - 끌어올림) 매커니즘에 따르므로 Scope에 혼선이 생김
 
-> ES6 새로운 변수 선언 - const, let
+* ES6 새로운 변수 선언 - const, let
 > 블록 단위{}로 변수의 범위가 제한됨
 > const : 변경 불가(상수)
 > let : 변경 가능(변수)
@@ -167,11 +167,11 @@ class BindTest extends React.Component {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjk4NjkxODgsLTYyMTEyNzEzOSwtMT
-IzMjExMTM0OCwtMTAyMDgyNzU0OCwtOTcxMTIxNDg0LC0xNzA3
-MTk3MDY0LC0xODk0MjU0OTU5LC0xOTE3MzUwMDMxLDEwNjU4MT
-IwNDYsLTgwODM3NTg3LC0xMzU3OTI4NzcxLDE1NTgxNzU3NDEs
-LTE5Mjk2ODQwNSwxMzkwMTc1NTk4LDQ2MDY5MTYxOCwtMTg4Nj
-I1Mjg3Miw0NTgwNzczMDcsLTE5Nzk1NzM5NDcsMTU3ODY3ODA0
-MCwtMTM5OTE5MzA4NV19
+eyJoaXN0b3J5IjpbLTk0NDM4NzU4OCwtNjIxMTI3MTM5LC0xMj
+MyMTExMzQ4LC0xMDIwODI3NTQ4LC05NzExMjE0ODQsLTE3MDcx
+OTcwNjQsLTE4OTQyNTQ5NTksLTE5MTczNTAwMzEsMTA2NTgxMj
+A0NiwtODA4Mzc1ODcsLTEzNTc5Mjg3NzEsMTU1ODE3NTc0MSwt
+MTkyOTY4NDA1LDEzOTAxNzU1OTgsNDYwNjkxNjE4LC0xODg2Mj
+UyODcyLDQ1ODA3NzMwNywtMTk3OTU3Mzk0NywxNTc4Njc4MDQw
+LC0xMzk5MTkzMDg1XX0=
 -->
