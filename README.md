@@ -141,20 +141,8 @@ You've got a message!\`
 
 항상 Arrow Function으로 선언함
 > 예)
-> class BindTest extends React.Component {
-> &nbsp;&nbsp;&nbsp;handleClick = () => {
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;console.log(this);
-> &nbsp;&nbsp;&nbsp;}
-> &nbsp;&nbsp;&nbsp;render() {
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return (
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<button type="button" onClick={this.handleClick}>
-> 
-        Goodbye bind
-      </button>
-    )
-  }
-}
-```
+~~~
+
 ## 문제해결
 
 ### prettier 적용 회피 - 기존 프로젝트 수정 시
@@ -165,7 +153,7 @@ You've got a message!\`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MTY2OTA3MywtMTIzMjExMTM0OCwtMT
+eyJoaXN0b3J5IjpbMTQ4MzkyNDY5NSwtMTIzMjExMTM0OCwtMT
 AyMDgyNzU0OCwtOTcxMTIxNDg0LC0xNzA3MTk3MDY0LC0xODk0
 MjU0OTU5LC0xOTE3MzUwMDMxLDEwNjU4MTIwNDYsLTgwODM3NT
 g3LC0xMzU3OTI4NzcxLDE1NTgxNzU3NDEsLTE5Mjk2ODQwNSwx
