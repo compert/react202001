@@ -158,7 +158,9 @@ class BindTest extends React.Component {
 ~~~
 [https://ko.reactjs.org/docs/faq-functions.html](https://ko.reactjs.org/docs/faq-functions.html)
 
-### 변수
+### 비어있는 변수 확인
+
+변수가 아래의 4가지
 
 ## 문제해결
 
@@ -170,11 +172,11 @@ class BindTest extends React.Component {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NjExMDE3Niw3NzUxODUwMjMsLTk0ND
-M4NzU4OCwtNjIxMTI3MTM5LC0xMjMyMTExMzQ4LC0xMDIwODI3
-NTQ4LC05NzExMjE0ODQsLTE3MDcxOTcwNjQsLTE4OTQyNTQ5NT
-ksLTE5MTczNTAwMzEsMTA2NTgxMjA0NiwtODA4Mzc1ODcsLTEz
-NTc5Mjg3NzEsMTU1ODE3NTc0MSwtMTkyOTY4NDA1LDEzOTAxNz
-U1OTgsNDYwNjkxNjE4LC0xODg2MjUyODcyLDQ1ODA3NzMwNywt
-MTk3OTU3Mzk0N119
+eyJoaXN0b3J5IjpbMTc1MDk1ODA5LDc3NTE4NTAyMywtOTQ0Mz
+g3NTg4LC02MjExMjcxMzksLTEyMzIxMTEzNDgsLTEwMjA4Mjc1
+NDgsLTk3MTEyMTQ4NCwtMTcwNzE5NzA2NCwtMTg5NDI1NDk1OS
+wtMTkxNzM1MDAzMSwxMDY1ODEyMDQ2LC04MDgzNzU4NywtMTM1
+NzkyODc3MSwxNTU4MTc1NzQxLC0xOTI5Njg0MDUsMTM5MDE3NT
+U5OCw0NjA2OTE2MTgsLTE4ODYyNTI4NzIsNDU4MDc3MzA3LC0x
+OTc5NTczOTQ3XX0=
 -->
