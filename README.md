@@ -141,7 +141,7 @@ You've got a message!\`
 
 ### class 내부 함수
 
-항상 Arrow Function으로 선언함
+항상 Arrow Function으로 선언함 - bind 호출의 불편
 ~~~
 class BindTest extends React.Component {
   handleClick = () => {
@@ -156,8 +156,7 @@ class BindTest extends React.Component {
   }
 }
 ~~~
-[https://blueshw.github.io/2017/07/01/arrow-function/](https://blueshw.github.io/2017/07/01/arrow-function/)
-
+[https://ko.reactjs.org/docs/faq-functions.html](https://ko.reactjs.org/docs/faq-functions.html)
 
 ## 문제해결
 
@@ -169,11 +168,11 @@ class BindTest extends React.Component {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc1MTg1MDIzLC05NDQzODc1ODgsLTYyMT
-EyNzEzOSwtMTIzMjExMTM0OCwtMTAyMDgyNzU0OCwtOTcxMTIx
-NDg0LC0xNzA3MTk3MDY0LC0xODk0MjU0OTU5LC0xOTE3MzUwMD
-MxLDEwNjU4MTIwNDYsLTgwODM3NTg3LC0xMzU3OTI4NzcxLDE1
-NTgxNzU3NDEsLTE5Mjk2ODQwNSwxMzkwMTc1NTk4LDQ2MDY5MT
-YxOCwtMTg4NjI1Mjg3Miw0NTgwNzczMDcsLTE5Nzk1NzM5NDcs
-MTU3ODY3ODA0MF19
+eyJoaXN0b3J5IjpbLTMwMDczMTQzNSw3NzUxODUwMjMsLTk0ND
+M4NzU4OCwtNjIxMTI3MTM5LC0xMjMyMTExMzQ4LC0xMDIwODI3
+NTQ4LC05NzExMjE0ODQsLTE3MDcxOTcwNjQsLTE4OTQyNTQ5NT
+ksLTE5MTczNTAwMzEsMTA2NTgxMjA0NiwtODA4Mzc1ODcsLTEz
+NTc5Mjg3NzEsMTU1ODE3NTc0MSwtMTkyOTY4NDA1LDEzOTAxNz
+U1OTgsNDYwNjkxNjE4LC0xODg2MjUyODcyLDQ1ODA3NzMwNywt
+MTk3OTU3Mzk0N119
 -->
