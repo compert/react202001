@@ -137,6 +137,11 @@ You've got a message!\`
 * 동등(\=\=), 부등(!\=) 연산자 : 자료형이 다를 경우 적절한 자료형으로 변환 시도함
 * 일치(\=\=\=), 불일치(!\=\=) : 자료형 변환 없이 두 연산자가 같은지 판별함
 
+### class 내부 함수
+
+항상 Arrow Function으로 선언함
+예) handleClick = () => {}
+
 ## 문제해결
 
 ### prettier 적용 회피 - 기존 프로젝트 수정 시
@@ -147,11 +152,11 @@ You've got a message!\`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzIxMTEzNDgsLTEwMjA4Mjc1NDgsLT
-k3MTEyMTQ4NCwtMTcwNzE5NzA2NCwtMTg5NDI1NDk1OSwtMTkx
-NzM1MDAzMSwxMDY1ODEyMDQ2LC04MDgzNzU4NywtMTM1NzkyOD
-c3MSwxNTU4MTc1NzQxLC0xOTI5Njg0MDUsMTM5MDE3NTU5OCw0
-NjA2OTE2MTgsLTE4ODYyNTI4NzIsNDU4MDc3MzA3LC0xOTc5NT
-czOTQ3LDE1Nzg2NzgwNDAsLTEzOTkxOTMwODUsLTE1NDg0NTMx
-OTIsODMwODY2NTQxXX0=
+eyJoaXN0b3J5IjpbLTE2NTg5Nzg1OTYsLTEyMzIxMTEzNDgsLT
+EwMjA4Mjc1NDgsLTk3MTEyMTQ4NCwtMTcwNzE5NzA2NCwtMTg5
+NDI1NDk1OSwtMTkxNzM1MDAzMSwxMDY1ODEyMDQ2LC04MDgzNz
+U4NywtMTM1NzkyODc3MSwxNTU4MTc1NzQxLC0xOTI5Njg0MDUs
+MTM5MDE3NTU5OCw0NjA2OTE2MTgsLTE4ODYyNTI4NzIsNDU4MD
+c3MzA3LC0xOTc5NTczOTQ3LDE1Nzg2NzgwNDAsLTEzOTkxOTMw
+ODUsLTE1NDg0NTMxOTJdfQ==
 -->
