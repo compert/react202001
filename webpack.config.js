@@ -53,6 +53,11 @@ const config = mode => {
       ],
     },
     plugins: [htmlPlugin],
+    devServer: {
+      historyApiFallback: {
+        disableDotRule: true,
+      },
+    },
   }
 }
 

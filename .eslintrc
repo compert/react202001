@@ -26,6 +26,7 @@
     "jest/no-identical-title": "error",
     "jest/prefer-to-have-length": "warn",
     "jest/valid-expect": "error",
+    // "jsx-quotes": ["error", "prefer-single"],
     "no-console": "off",
     "react/prop-types": 0,
     "indent": ["error", 2],

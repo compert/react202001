@@ -1,5 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Root from './pages/samples/Todo/Root'
 
-ReactDOM.render(<Root />, document.getElementById('root'))
+import App from './pages/samples/Routes/App'
+// import Root from './pages/samples/Todo/Root'
+
+ReactDOM.render(<App />, document.getElementById('root'))
+// ReactDOM.render(<Root />, document.getElementById('root'))

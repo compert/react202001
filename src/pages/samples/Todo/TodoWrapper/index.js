@@ -1,8 +1,9 @@
 import React, {useState, useEffect} from 'react'
 import axios from 'axios'
-import styles from './styles.scss'
+
 import TodoTitle from '../TodoTitle'
 import TodoList from '../TodoList'
+import styles from './styles.scss'
 
 const TodoWrapper = () => {
   const [todoList, setTodoList] = useState([])
