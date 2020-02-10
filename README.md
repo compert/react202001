@@ -81,16 +81,16 @@ var, const, let으로 선언할 수 있으나 var은 쓰지 않기로 정함
 
 ### 코딩 포맷
 
-VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동으로 적용됨
+VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 **저장 시 자동으로 적용**됨
 
 * 들여 쓰기는 공백 두 개로 함
 * 문장 끝에 세미콜론은 쓰지 않음(js 파일만) - 아래 링크 참조
 ~~const a = 1;~~ => const a = 1
 [https://bakyeono.net/post/2018-01-19-javascript-use-semicolon-or-not.html](https://bakyeono.net/post/2018-01-19-javascript-use-semicolon-or-not.html)
 * 모든 괄호의 시작과 끝에 공백을  넣지 않음
-> ~~if ( a === b ) {~~ => if (a === b) {
-> ~~[ 1, 2 ]~~ => [1, 2]
-> ~~{ a: 1 }~~ => {a: 1}
+> if ( a === b ) { => if (a === b) {
+> [ 1, 2 ] => [1, 2]
+> { a: 1 } => {a: 1}
 * if 문, for 문은 아래처럼 사용
 > if (a === b) {
 > for (let i = 0; i < 5; i++) {
@@ -188,11 +188,11 @@ if (!value) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NDQ3NDY5OCw4NTc1Mjg0MjMsNDUxND
-g0NTAwLDc3NTE4NTAyMywtOTQ0Mzg3NTg4LC02MjExMjcxMzks
-LTEyMzIxMTEzNDgsLTEwMjA4Mjc1NDgsLTk3MTEyMTQ4NCwtMT
-cwNzE5NzA2NCwtMTg5NDI1NDk1OSwtMTkxNzM1MDAzMSwxMDY1
-ODEyMDQ2LC04MDgzNzU4NywtMTM1NzkyODc3MSwxNTU4MTc1Nz
-QxLC0xOTI5Njg0MDUsMTM5MDE3NTU5OCw0NjA2OTE2MTgsLTE4
-ODYyNTI4NzJdfQ==
+eyJoaXN0b3J5IjpbLTEwMDYzMDUzMzQsODU3NTI4NDIzLDQ1MT
+Q4NDUwMCw3NzUxODUwMjMsLTk0NDM4NzU4OCwtNjIxMTI3MTM5
+LC0xMjMyMTExMzQ4LC0xMDIwODI3NTQ4LC05NzExMjE0ODQsLT
+E3MDcxOTcwNjQsLTE4OTQyNTQ5NTksLTE5MTczNTAwMzEsMTA2
+NTgxMjA0NiwtODA4Mzc1ODcsLTEzNTc5Mjg3NzEsMTU1ODE3NT
+c0MSwtMTkyOTY4NDA1LDEzOTAxNzU1OTgsNDYwNjkxNjE4LC0x
+ODg2MjUyODcyXX0=
 -->
