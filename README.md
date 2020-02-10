@@ -178,7 +178,7 @@ if (!undefined && !null && !NaN && !'' && !0 && !false) { // true
 ~~~
 import  _  from  'lodash'
 
-if (!value) {
+if (_.get(obj, 'state.history') === ) {
   // 변수가 비어있지 않을 때 처리
 }
 ~~~
@@ -204,11 +204,11 @@ if (!value) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODAzOTI1NTcsLTIwMzkyMjA4MDUsOD
-U3NTI4NDIzLDQ1MTQ4NDUwMCw3NzUxODUwMjMsLTk0NDM4NzU4
-OCwtNjIxMTI3MTM5LC0xMjMyMTExMzQ4LC0xMDIwODI3NTQ4LC
-05NzExMjE0ODQsLTE3MDcxOTcwNjQsLTE4OTQyNTQ5NTksLTE5
-MTczNTAwMzEsMTA2NTgxMjA0NiwtODA4Mzc1ODcsLTEzNTc5Mj
-g3NzEsMTU1ODE3NTc0MSwtMTkyOTY4NDA1LDEzOTAxNzU1OTgs
-NDYwNjkxNjE4XX0=
+eyJoaXN0b3J5IjpbLTQyOTc4NjAzOCwtMjAzOTIyMDgwNSw4NT
+c1Mjg0MjMsNDUxNDg0NTAwLDc3NTE4NTAyMywtOTQ0Mzg3NTg4
+LC02MjExMjcxMzksLTEyMzIxMTEzNDgsLTEwMjA4Mjc1NDgsLT
+k3MTEyMTQ4NCwtMTcwNzE5NzA2NCwtMTg5NDI1NDk1OSwtMTkx
+NzM1MDAzMSwxMDY1ODEyMDQ2LC04MDgzNzU4NywtMTM1NzkyOD
+c3MSwxNTU4MTc1NzQxLC0xOTI5Njg0MDUsMTM5MDE3NTU5OCw0
+NjA2OTE2MThdfQ==
 -->
