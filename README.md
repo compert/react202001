@@ -184,11 +184,12 @@ if (!value) {
 ### 객체 값 읽어오기
 
 객체 내 값 읽어올 때는 Lodash(_) 라이브러리 사용
+객체와 객체 내부의 값이 각각 비어있는지 확인할 필요가 없어서 유용
 ~~~
 import  _  from  'lodash'
 
-if (_.get(this, 'staten) {
-  // 변수가 비어있지 않을 때 처리
+if (_.get(this, 'state.name' === 'Mike')) {
+  // this.state.name 값이 'Mike'와 같을 때 처리
 }
 ~~~
 
@@ -203,11 +204,11 @@ if (_.get(this, 'staten) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUxMTU1NTk2LC0yMDM5MjIwODA1LDg1Nz
-UyODQyMyw0NTE0ODQ1MDAsNzc1MTg1MDIzLC05NDQzODc1ODgs
-LTYyMTEyNzEzOSwtMTIzMjExMTM0OCwtMTAyMDgyNzU0OCwtOT
-cxMTIxNDg0LC0xNzA3MTk3MDY0LC0xODk0MjU0OTU5LC0xOTE3
-MzUwMDMxLDEwNjU4MTIwNDYsLTgwODM3NTg3LC0xMzU3OTI4Nz
-cxLDE1NTgxNzU3NDEsLTE5Mjk2ODQwNSwxMzkwMTc1NTk4LDQ2
-MDY5MTYxOF19
+eyJoaXN0b3J5IjpbLTEzMzA0MzA3MzMsLTIwMzkyMjA4MDUsOD
+U3NTI4NDIzLDQ1MTQ4NDUwMCw3NzUxODUwMjMsLTk0NDM4NzU4
+OCwtNjIxMTI3MTM5LC0xMjMyMTExMzQ4LC0xMDIwODI3NTQ4LC
+05NzExMjE0ODQsLTE3MDcxOTcwNjQsLTE4OTQyNTQ5NTksLTE5
+MTczNTAwMzEsMTA2NTgxMjA0NiwtODA4Mzc1ODcsLTEzNTc5Mj
+g3NzEsMTU1ODE3NTc0MSwtMTkyOTY4NDA1LDEzOTAxNzU1OTgs
+NDYwNjkxNjE4XX0=
 -->
