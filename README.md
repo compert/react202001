@@ -85,7 +85,7 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 **저장 시 자동
 
 * 들여 쓰기는 공백 두 개로 함
 * 문장 끝에 세미콜론은 쓰지 않음(js 파일만) - 아래 링크 참조
-~~const a = 1;~~ => const a = 1
+> const a = 1; => const a = 1
 [https://bakyeono.net/post/2018-01-19-javascript-use-semicolon-or-not.html](https://bakyeono.net/post/2018-01-19-javascript-use-semicolon-or-not.html)
 * 모든 괄호의 시작과 끝에 공백을  넣지 않음
 > if ( a === b ) { => if (a === b) {
@@ -188,11 +188,11 @@ if (!value) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDYzMDUzMzQsODU3NTI4NDIzLDQ1MT
-Q4NDUwMCw3NzUxODUwMjMsLTk0NDM4NzU4OCwtNjIxMTI3MTM5
-LC0xMjMyMTExMzQ4LC0xMDIwODI3NTQ4LC05NzExMjE0ODQsLT
-E3MDcxOTcwNjQsLTE4OTQyNTQ5NTksLTE5MTczNTAwMzEsMTA2
-NTgxMjA0NiwtODA4Mzc1ODcsLTEzNTc5Mjg3NzEsMTU1ODE3NT
-c0MSwtMTkyOTY4NDA1LDEzOTAxNzU1OTgsNDYwNjkxNjE4LC0x
-ODg2MjUyODcyXX0=
+eyJoaXN0b3J5IjpbNzM5NDExNjQsODU3NTI4NDIzLDQ1MTQ4ND
+UwMCw3NzUxODUwMjMsLTk0NDM4NzU4OCwtNjIxMTI3MTM5LC0x
+MjMyMTExMzQ4LC0xMDIwODI3NTQ4LC05NzExMjE0ODQsLTE3MD
+cxOTcwNjQsLTE4OTQyNTQ5NTksLTE5MTczNTAwMzEsMTA2NTgx
+MjA0NiwtODA4Mzc1ODcsLTEzNTc5Mjg3NzEsMTU1ODE3NTc0MS
+wtMTkyOTY4NDA1LDEzOTAxNzU1OTgsNDYwNjkxNjE4LC0xODg2
+MjUyODcyXX0=
 -->
