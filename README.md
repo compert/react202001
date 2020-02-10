@@ -145,8 +145,11 @@ You've got a message!\`
 ### class 내부 함수
 
 항상 Arrow Function으로 선언함 - bind 생략
+생명 주기 함수와 reader 함수는 기존대로 선언함
 ~~~
 class BindTest extends React.Component {
+  componentDidMount() {
+  }
   handleClick = () => {
     console.log(this)
   }
@@ -188,11 +191,11 @@ if (!value) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM5NDExNjQsODU3NTI4NDIzLDQ1MTQ4ND
-UwMCw3NzUxODUwMjMsLTk0NDM4NzU4OCwtNjIxMTI3MTM5LC0x
-MjMyMTExMzQ4LC0xMDIwODI3NTQ4LC05NzExMjE0ODQsLTE3MD
-cxOTcwNjQsLTE4OTQyNTQ5NTksLTE5MTczNTAwMzEsMTA2NTgx
-MjA0NiwtODA4Mzc1ODcsLTEzNTc5Mjg3NzEsMTU1ODE3NTc0MS
-wtMTkyOTY4NDA1LDEzOTAxNzU1OTgsNDYwNjkxNjE4LC0xODg2
-MjUyODcyXX0=
+eyJoaXN0b3J5IjpbNzMxNjM1MTU1LDg1NzUyODQyMyw0NTE0OD
+Q1MDAsNzc1MTg1MDIzLC05NDQzODc1ODgsLTYyMTEyNzEzOSwt
+MTIzMjExMTM0OCwtMTAyMDgyNzU0OCwtOTcxMTIxNDg0LC0xNz
+A3MTk3MDY0LC0xODk0MjU0OTU5LC0xOTE3MzUwMDMxLDEwNjU4
+MTIwNDYsLTgwODM3NTg3LC0xMzU3OTI4NzcxLDE1NTgxNzU3ND
+EsLTE5Mjk2ODQwNSwxMzkwMTc1NTk4LDQ2MDY5MTYxOCwtMTg4
+NjI1Mjg3Ml19
 -->
