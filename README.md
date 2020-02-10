@@ -96,7 +96,7 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 * 문장 끝에 공백은 쓰지 않음
 * 빈줄은 두 줄 이상 쓰지 않음
 * 파일 제일 끝에 빈줄을 넣음 - Editorconfig에서 넣어줌
-* JSX 내에서 항상 작은 따옴표를 사용함
+* JSX 내에서는 항상 작은 따옴표를 사용함
 
 ### 참조(import) 규칙
 
@@ -186,11 +186,11 @@ if (!value) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU3NTI4NDIzLDQ1MTQ4NDUwMCw3NzUxOD
-UwMjMsLTk0NDM4NzU4OCwtNjIxMTI3MTM5LC0xMjMyMTExMzQ4
-LC0xMDIwODI3NTQ4LC05NzExMjE0ODQsLTE3MDcxOTcwNjQsLT
-E4OTQyNTQ5NTksLTE5MTczNTAwMzEsMTA2NTgxMjA0NiwtODA4
-Mzc1ODcsLTEzNTc5Mjg3NzEsMTU1ODE3NTc0MSwtMTkyOTY4ND
-A1LDEzOTAxNzU1OTgsNDYwNjkxNjE4LC0xODg2MjUyODcyLDQ1
-ODA3NzMwN119
+eyJoaXN0b3J5IjpbLTQ4OTAwNzE0NSw4NTc1Mjg0MjMsNDUxND
+g0NTAwLDc3NTE4NTAyMywtOTQ0Mzg3NTg4LC02MjExMjcxMzks
+LTEyMzIxMTEzNDgsLTEwMjA4Mjc1NDgsLTk3MTEyMTQ4NCwtMT
+cwNzE5NzA2NCwtMTg5NDI1NDk1OSwtMTkxNzM1MDAzMSwxMDY1
+ODEyMDQ2LC04MDgzNzU4NywtMTM1NzkyODc3MSwxNTU4MTc1Nz
+QxLC0xOTI5Njg0MDUsMTM5MDE3NTU5OCw0NjA2OTE2MTgsLTE4
+ODYyNTI4NzJdfQ==
 -->
