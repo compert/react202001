@@ -96,7 +96,8 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 저장 시 자동�
 * 문장 끝에 공백은 쓰지 않음
 * 빈줄은 두 줄 이상 쓰지 않음
 * 파일 제일 끝에 빈줄을 넣음 - Editorconfig에서 넣어줌
-* JSX 내에서는 항상 작은 따옴표를 사용함
+* JSX 내에서는 기본적으로 큰 따옴표를 사용하고 JS 변수는 작은 따옴표를 사용함
+> <Foo bar="bar" baz={qux && 'biz'} />
 
 ### 참조(import) 규칙
 
@@ -186,7 +187,7 @@ if (!value) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4OTAwNzE0NSw4NTc1Mjg0MjMsNDUxND
+eyJoaXN0b3J5IjpbMTg2OTU0MzQ3OSw4NTc1Mjg0MjMsNDUxND
 g0NTAwLDc3NTE4NTAyMywtOTQ0Mzg3NTg4LC02MjExMjcxMzks
 LTEyMzIxMTEzNDgsLTEwMjA4Mjc1NDgsLTk3MTEyMTQ4NCwtMT
 cwNzE5NzA2NCwtMTg5NDI1NDk1OSwtMTkxNzM1MDAzMSwxMDY1
