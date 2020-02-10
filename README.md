@@ -176,13 +176,18 @@ if (!undefined && !null && !NaN && !'' && !0 && !false) { // true
 
 따라서 비어있는 변수인지 체크할 때는 아래 방식으로 처리
 ~~~
+import  _  from  'lodash'
+
 if (!value) {
   // 변수가 비어있지 않을 때 처리
 }
 ~~~
 
-객체 내의 값이 비어있는 변수인지 체크할 때는 Lodash(_) 라이브러리 사용
+### 객체 값 읽어오기
+
+객체 내 값 읽어올 때는 Lodash(_) 라이브러리 사용
 ~~~
+import _ from 'lo
 if (!value) {
   // 변수가 비어있지 않을 때 처리
 }
@@ -199,7 +204,7 @@ if (!value) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTQ5NzYwMDIsLTIwMzkyMjA4MDUsOD
+eyJoaXN0b3J5IjpbLTEwODAzOTI1NTcsLTIwMzkyMjA4MDUsOD
 U3NTI4NDIzLDQ1MTQ4NDUwMCw3NzUxODUwMjMsLTk0NDM4NzU4
 OCwtNjIxMTI3MTM5LC0xMjMyMTExMzQ4LC0xMDIwODI3NTQ4LC
 05NzExMjE0ODQsLTE3MDcxOTcwNjQsLTE4OTQyNTQ5NTksLTE5
