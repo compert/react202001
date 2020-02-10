@@ -188,7 +188,7 @@ if (!value) {
 ~~~
 import _ from 'lodash'
 
-if (_.get(this, 'state.name' === 'Mike')) {
+if (_.get(this, 'state.name') === 'Mike') {
   // this.state.name 값이 'Mike'와 같을 때 처리
 }
 ~~~
@@ -203,11 +203,11 @@ if (_.get(this, 'state.name' === 'Mike')) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5OTM4NTc3MiwtMTI0NTUwMjI1NCw4Nz
-g3MTc3NjUsLTIwMzkyMjA4MDUsODU3NTI4NDIzLDQ1MTQ4NDUw
-MCw3NzUxODUwMjMsLTk0NDM4NzU4OCwtNjIxMTI3MTM5LC0xMj
-MyMTExMzQ4LC0xMDIwODI3NTQ4LC05NzExMjE0ODQsLTE3MDcx
-OTcwNjQsLTE4OTQyNTQ5NTksLTE5MTczNTAwMzEsMTA2NTgxMj
-A0NiwtODA4Mzc1ODcsLTEzNTc5Mjg3NzEsMTU1ODE3NTc0MSwt
-MTkyOTY4NDA1XX0=
+eyJoaXN0b3J5IjpbMTg4MzAxMDkyLDE3OTkzODU3NzIsLTEyND
+U1MDIyNTQsODc4NzE3NzY1LC0yMDM5MjIwODA1LDg1NzUyODQy
+Myw0NTE0ODQ1MDAsNzc1MTg1MDIzLC05NDQzODc1ODgsLTYyMT
+EyNzEzOSwtMTIzMjExMTM0OCwtMTAyMDgyNzU0OCwtOTcxMTIx
+NDg0LC0xNzA3MTk3MDY0LC0xODk0MjU0OTU5LC0xOTE3MzUwMD
+MxLDEwNjU4MTIwNDYsLTgwODM3NTg3LC0xMzU3OTI4NzcxLDE1
+NTgxNzU3NDFdfQ==
 -->
