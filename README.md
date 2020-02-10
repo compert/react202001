@@ -88,7 +88,7 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 **저장 시 자동
 > const a = 1; => const a = 1
 [https://bakyeono.net/post/2018-01-19-javascript-use-semicolon-or-not.html](https://bakyeono.net/post/2018-01-19-javascript-use-semicolon-or-not.html)
 * 모든 괄호의 시작과 끝에 공백을  넣지 않음
-> if ( a === b ) { => if (a === b) {
+> if ( a \=\=\= b ) { => if (a \=\=\= b) {
 > [ 1, 2 ] => [1, 2]
 > { a: 1 } => {a: 1}
 * if 문, for 문은 아래처럼 사용
@@ -96,7 +96,7 @@ VSCode에서 Eslint + Prettier, Editorconfig의 조합으로 **저장 시 자동
 > for (let i = 0; i < 5; i++) {
 * 문장 끝에 공백은 쓰지 않음
 * 빈줄은 두 줄 이상 쓰지 않음
-* 파일 제일 끝에 빈줄을 넣음 - Editorconfig에서 넣어줌
+* 파일 제일 끝에 빈줄을 넣음
 * JSX 내에서는 기본적으로 큰 따옴표를 사용하고 JS 변수는 작은 따옴표를 사용함
 > <Foo bar="bar" baz={'biz'} />
 
@@ -203,11 +203,11 @@ if (_.get(this, 'state.name' === 'Mike')) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc4NzE3NzY1LC0yMDM5MjIwODA1LDg1Nz
-UyODQyMyw0NTE0ODQ1MDAsNzc1MTg1MDIzLC05NDQzODc1ODgs
-LTYyMTEyNzEzOSwtMTIzMjExMTM0OCwtMTAyMDgyNzU0OCwtOT
-cxMTIxNDg0LC0xNzA3MTk3MDY0LC0xODk0MjU0OTU5LC0xOTE3
-MzUwMDMxLDEwNjU4MTIwNDYsLTgwODM3NTg3LC0xMzU3OTI4Nz
-cxLDE1NTgxNzU3NDEsLTE5Mjk2ODQwNSwxMzkwMTc1NTk4LDQ2
-MDY5MTYxOF19
+eyJoaXN0b3J5IjpbLTEyNDU1MDIyNTQsODc4NzE3NzY1LC0yMD
+M5MjIwODA1LDg1NzUyODQyMyw0NTE0ODQ1MDAsNzc1MTg1MDIz
+LC05NDQzODc1ODgsLTYyMTEyNzEzOSwtMTIzMjExMTM0OCwtMT
+AyMDgyNzU0OCwtOTcxMTIxNDg0LC0xNzA3MTk3MDY0LC0xODk0
+MjU0OTU5LC0xOTE3MzUwMDMxLDEwNjU4MTIwNDYsLTgwODM3NT
+g3LC0xMzU3OTI4NzcxLDE1NTgxNzU3NDEsLTE5Mjk2ODQwNSwx
+MzkwMTc1NTk4XX0=
 -->
