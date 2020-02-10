@@ -176,9 +176,7 @@ if (!undefined && !null && !NaN && !'' && !0 && !false) { // true
 
 따라서 비어있는 변수인지 체크할 때는 아래 방식으로 처리
 ~~~
-import  _  from  'lodash'
-
-if (_.get(obj, 'state.history') === ) {
+if (!value) {
   // 변수가 비어있지 않을 때 처리
 }
 ~~~
@@ -187,8 +185,9 @@ if (_.get(obj, 'state.history') === ) {
 
 객체 내 값 읽어올 때는 Lodash(_) 라이브러리 사용
 ~~~
-import _ from 'lo
-if (!value) {
+import  _  from  'lodash'
+
+if (_.get(this, 'staten) {
   // 변수가 비어있지 않을 때 처리
 }
 ~~~
@@ -204,11 +203,11 @@ if (!value) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyOTc4NjAzOCwtMjAzOTIyMDgwNSw4NT
-c1Mjg0MjMsNDUxNDg0NTAwLDc3NTE4NTAyMywtOTQ0Mzg3NTg4
-LC02MjExMjcxMzksLTEyMzIxMTEzNDgsLTEwMjA4Mjc1NDgsLT
-k3MTEyMTQ4NCwtMTcwNzE5NzA2NCwtMTg5NDI1NDk1OSwtMTkx
-NzM1MDAzMSwxMDY1ODEyMDQ2LC04MDgzNzU4NywtMTM1NzkyOD
-c3MSwxNTU4MTc1NzQxLC0xOTI5Njg0MDUsMTM5MDE3NTU5OCw0
-NjA2OTE2MThdfQ==
+eyJoaXN0b3J5IjpbMjUxMTU1NTk2LC0yMDM5MjIwODA1LDg1Nz
+UyODQyMyw0NTE0ODQ1MDAsNzc1MTg1MDIzLC05NDQzODc1ODgs
+LTYyMTEyNzEzOSwtMTIzMjExMTM0OCwtMTAyMDgyNzU0OCwtOT
+cxMTIxNDg0LC0xNzA3MTk3MDY0LC0xODk0MjU0OTU5LC0xOTE3
+MzUwMDMxLDEwNjU4MTIwNDYsLTgwODM3NTg3LC0xMzU3OTI4Nz
+cxLDE1NTgxNzU3NDEsLTE5Mjk2ODQwNSwxMzkwMTc1NTk4LDQ2
+MDY5MTYxOF19
 -->
