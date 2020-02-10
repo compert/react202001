@@ -111,8 +111,8 @@ import  React  from  'react'
 import {Link, Route, Switch, BrowserRouter  as  Router} from  'react-router-dom'
  
 import Utils from '../utils'
-import  Home  from  './Home'
-import  About  from  './About'
+import Home from './Home'
+import About from './About'
 import styles from './styles.scss'
 ~~~
 
@@ -191,11 +191,11 @@ if (!value) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMxNjM1MTU1LDg1NzUyODQyMyw0NTE0OD
-Q1MDAsNzc1MTg1MDIzLC05NDQzODc1ODgsLTYyMTEyNzEzOSwt
-MTIzMjExMTM0OCwtMTAyMDgyNzU0OCwtOTcxMTIxNDg0LC0xNz
-A3MTk3MDY0LC0xODk0MjU0OTU5LC0xOTE3MzUwMDMxLDEwNjU4
-MTIwNDYsLTgwODM3NTg3LC0xMzU3OTI4NzcxLDE1NTgxNzU3ND
-EsLTE5Mjk2ODQwNSwxMzkwMTc1NTk4LDQ2MDY5MTYxOCwtMTg4
-NjI1Mjg3Ml19
+eyJoaXN0b3J5IjpbLTIwMzkyMjA4MDUsODU3NTI4NDIzLDQ1MT
+Q4NDUwMCw3NzUxODUwMjMsLTk0NDM4NzU4OCwtNjIxMTI3MTM5
+LC0xMjMyMTExMzQ4LC0xMDIwODI3NTQ4LC05NzExMjE0ODQsLT
+E3MDcxOTcwNjQsLTE4OTQyNTQ5NTksLTE5MTczNTAwMzEsMTA2
+NTgxMjA0NiwtODA4Mzc1ODcsLTEzNTc5Mjg3NzEsMTU1ODE3NT
+c0MSwtMTkyOTY4NDA1LDEzOTAxNzU1OTgsNDYwNjkxNjE4LC0x
+ODg2MjUyODcyXX0=
 -->
