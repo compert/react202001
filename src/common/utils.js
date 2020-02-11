@@ -6,7 +6,7 @@ const MOBILE_FORMAT = /^01([0|1|6|7|8|9]+)-?([0-9]{3,4})-?([0-9]{4})$/i
 
 export default {
   numberWithCommas(x) {
-    if (x === undefined || x === null || x === '' || _.isNaN(x)) return x
+    if (!x || isNaN(x)) return x
     let parts = x
       .toString()
       .replace(/,/g, '')
@@ -15,23 +15,23 @@ export default {
     return parts.join('.')
   },
   removeCommas(x) {
-    if (x === undefined || x === null || x === '' || _.isNaN(x)) return x
+    if (!x || isNaN(x)) return x
     return String(x).replace(/,/g, '')
   },
   parseFloatWtihCommas(x) {
-    if (x === undefined || x === null || x === '' || _.isNaN(x)) return 0
+    if (!x || isNaN(x)) return 0
     return parseFloat(String(x).replace(/,/g, ''))
   },
   getCeil(x, pos = 0) {
-    if (x === undefined || x === null || x === '' || _.isNaN(x)) return 0
+    if (!x || isNaN(x)) return 0
     return Math.ceil(parseFloat(x) * Math.pow(10, pos)) / Math.pow(10, pos)
   },
   getFloor(x, pos = 0) {
-    if (x === undefined || x === null || x === '' || _.isNaN(x)) return 0
+    if (!x || isNaN(x)) return 0
     return Math.floor(parseFloat(x) * Math.pow(10, pos)) / Math.pow(10, pos)
   },
   getRounds(x, pos = 0) {
-    if (x === undefined || x === null || x === '' || _.isNaN(x)) return 0
+    if (!x || isNaN(x)) return 0
     return Math.round(parseFloat(x) * Math.pow(10, pos)) / Math.pow(10, pos)
   },
   getRandomNumber(min, max) {
