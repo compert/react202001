@@ -1,7 +1,7 @@
 import axios from 'axios'
 import _ from 'lodash'
 
-import apmConst from '../common/constants'
+import apmConst from './constants'
 
 global.apmApiUri = apmConst.getApiUri()
 
@@ -24,7 +24,12 @@ const commonGetAPI = (path, data) => {
 const commonPostAPI = (path, data) => {
   return commonAPI(path, data, 'POST')
 }
+const getPlayloadResult = response => _.get(response, 'payload.result', false)
+const getPlayloadValue = response => _.get(response, 'payload.value', false)
 
 export const API = {
   loginUserInfo: data => commonPostAPI('/loginUserInfo', data),
+
+  getResult: response => getPlayloadResult(response),
+  getData: response => getPlayloadValue(response),
 }

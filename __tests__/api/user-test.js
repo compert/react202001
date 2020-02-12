@@ -1,6 +1,6 @@
 import _ from 'lodash'
 
-import {API} from '../../src/redux/services'
+import {API} from '../../src/common/services'
 import apmConst from '../../src/common/constants'
 
 const loginData = (userId, userPw) => ({
