@@ -4,7 +4,6 @@ import {Link, Route, Switch, BrowserRouter as Router} from 'react-router-dom'
 import Home from './Home'
 import About from './About'
 import NotFound from './NotFound'
-import './styles.scss'
 
 function App() {
   return (
@@ -21,13 +20,13 @@ function App() {
         </Link>
       </header>
       <hr />
-      <main>
+      <div>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route component={NotFound} />
         </Switch>
-      </main>
+      </div>
     </Router>
   )
 }

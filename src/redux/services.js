@@ -5,20 +5,24 @@ import apmConst from '../common/constants'
 
 global.apmApiUri = apmConst.getApiUri()
 
-const commonGetAPI = path => {
-  return axios
-    .get(`${global.apmApiUri}${path}`)
-    .then(response => response)
+const commonAPI = (path, data, method) => {
+  const payload = _.get(data, 'payload', data)
+  return axios({
+    url: `${global.apmApiUri}${path}`,
+    method,
+    headers: {
+      'content-type': 'application/json',
+    },
+    data: method === 'POST' ? payload : undefined,
+  })
+    .then(response => response.data)
     .catch(e => e)
 }
+const commonGetAPI = (path, data) => {
+  return commonAPI(path, data, 'GET')
+}
 const commonPostAPI = (path, data) => {
-  const payload = _.get(data, 'payload', data)
-  console.log('payload:', payload)
-  console.log('apmApiUri:', `${global.apmApiUri}${path}`)
-  return axios
-    .post(`${global.apmApiUri}${path}`, payload)
-    .then(response => response)
-    .catch(e => e)
+  return commonAPI(path, data, 'POST')
 }
 
 export const API = {

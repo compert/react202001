@@ -1,17 +1,6 @@
 // For a detailed explanation regarding each configuration property, visit:
 // https://jestjs.io/docs/en/configuration.html
 
-function copyProps(src, target) {
-  const props = Object.getOwnPropertyNames(src)
-    .filter(prop => typeof target[prop] === 'undefined')
-    .map(prop => Object.getOwnPropertyDescriptor(src, prop))
-  Object.defineProperties(target, props)
-}
-
-global.navigator = {
-  userAgent: 'node.js',
-}
-
 module.exports = {
   // All imported modules in your tests should be mocked automatically
   // automock: false,
