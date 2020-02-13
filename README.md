@@ -23,6 +23,7 @@ Microsoft에서 개발한 소스코드 편집기 - mac, linux, windows 지원
 [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 
 * VSCode 환경 설정(settings.json)
+> 파일 > 기본 설정 > 설정 메뉴를
 ~~~
 {
     "workbench.editor.enablePreview": false,
@@ -233,11 +234,11 @@ if (_.get(this, 'state.name') === 'Mike') {
     *
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTg5NDgyMTgsMTg4MzAxMDkyLDE3OT
-kzODU3NzIsLTEyNDU1MDIyNTQsODc4NzE3NzY1LC0yMDM5MjIw
-ODA1LDg1NzUyODQyMyw0NTE0ODQ1MDAsNzc1MTg1MDIzLC05ND
-QzODc1ODgsLTYyMTEyNzEzOSwtMTIzMjExMTM0OCwtMTAyMDgy
-NzU0OCwtOTcxMTIxNDg0LC0xNzA3MTk3MDY0LC0xODk0MjU0OT
-U5LC0xOTE3MzUwMDMxLDEwNjU4MTIwNDYsLTgwODM3NTg3LC0x
-MzU3OTI4NzcxXX0=
+eyJoaXN0b3J5IjpbLTM1NTYyMTQ0OCwtMTIxODk0ODIxOCwxOD
+gzMDEwOTIsMTc5OTM4NTc3MiwtMTI0NTUwMjI1NCw4Nzg3MTc3
+NjUsLTIwMzkyMjA4MDUsODU3NTI4NDIzLDQ1MTQ4NDUwMCw3Nz
+UxODUwMjMsLTk0NDM4NzU4OCwtNjIxMTI3MTM5LC0xMjMyMTEx
+MzQ4LC0xMDIwODI3NTQ4LC05NzExMjE0ODQsLTE3MDcxOTcwNj
+QsLTE4OTQyNTQ5NTksLTE5MTczNTAwMzEsMTA2NTgxMjA0Niwt
+ODA4Mzc1ODddfQ==
 -->
