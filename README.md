@@ -22,6 +22,21 @@ Microsoft에서 개발한 소스코드 편집기 - mac, linux, windows 지원
 
 [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 
+* VSCode 환경 설정(settings.json)
+~~~
+{
+    "liveServer.settings.donotVerifyTags": true,
+    "workbench.editor.enablePreview": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "window.zoomLevel": 0,
+    "workbench.startupEditor": "none",
+    "javascript.format.enable": false,
+    "editor.formatOnSave": true,
+    "files.eol": "\n",
+    "typescript.reportStyleChecksAsWarnings": false
+}
+~~~
+
 ### VSCode extensions
 
 	Debugger for Chrome
@@ -220,7 +235,7 @@ if (_.get(this, 'state.name') === 'Mike') {
     *
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MDk5MjQzMCwxODgzMDEwOTIsMTc5OT
+eyJoaXN0b3J5IjpbLTM2NTY5NjU5MCwxODgzMDEwOTIsMTc5OT
 M4NTc3MiwtMTI0NTUwMjI1NCw4Nzg3MTc3NjUsLTIwMzkyMjA4
 MDUsODU3NTI4NDIzLDQ1MTQ4NDUwMCw3NzUxODUwMjMsLTk0ND
 M4NzU4OCwtNjIxMTI3MTM5LC0xMjMyMTExMzQ4LC0xMDIwODI3
