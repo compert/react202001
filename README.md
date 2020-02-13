@@ -71,16 +71,18 @@ build 폴더 내의 모든 파일을 서버로 업로드하면 배포 완료
 
 ```
 __tests__ : Jest 테스트 파일 폴더
-.storybook : 
-src : 소스 폴더
+.storybook : StoryBook 설정 폴더
 public : 진입점 폴더(index.html)
+src : 소스 폴더
 src/index.js : Root 모듈
+stories : StoryBook 폴더
 .babelrc : babel 설정 파일
 .editorconfig : EditorConfig 설정 파일
 .eslintrc : Eslint 설정 파일
 .gitignore : git 관리 대상 제외 파일
 .prettierrc : Prettier 설정 파일
 jest.config.js : Jest 설정 파일
+README.md :  파일
 package.json : 프로젝트 정보, 의존 모듈(라이브러리) 관리
 webpack.config.js : Webpack 설정 파일
 ```
@@ -236,11 +238,11 @@ if (_.get(this, 'state.name') === 'Mike') {
     *
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNTE1NzA5NSwtMTIxODk0ODIxOCwxOD
-gzMDEwOTIsMTc5OTM4NTc3MiwtMTI0NTUwMjI1NCw4Nzg3MTc3
-NjUsLTIwMzkyMjA4MDUsODU3NTI4NDIzLDQ1MTQ4NDUwMCw3Nz
-UxODUwMjMsLTk0NDM4NzU4OCwtNjIxMTI3MTM5LC0xMjMyMTEx
-MzQ4LC0xMDIwODI3NTQ4LC05NzExMjE0ODQsLTE3MDcxOTcwNj
-QsLTE4OTQyNTQ5NTksLTE5MTczNTAwMzEsMTA2NTgxMjA0Niwt
-ODA4Mzc1ODddfQ==
+eyJoaXN0b3J5IjpbLTE3MjUxNDA2MzIsLTEyMTg5NDgyMTgsMT
+g4MzAxMDkyLDE3OTkzODU3NzIsLTEyNDU1MDIyNTQsODc4NzE3
+NzY1LC0yMDM5MjIwODA1LDg1NzUyODQyMyw0NTE0ODQ1MDAsNz
+c1MTg1MDIzLC05NDQzODc1ODgsLTYyMTEyNzEzOSwtMTIzMjEx
+MTM0OCwtMTAyMDgyNzU0OCwtOTcxMTIxNDg0LC0xNzA3MTk3MD
+Y0LC0xODk0MjU0OTU5LC0xOTE3MzUwMDMxLDEwNjU4MTIwNDYs
+LTgwODM3NTg3XX0=
 -->
