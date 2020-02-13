@@ -36,7 +36,7 @@ Microsoft에서 개발한 소스코드 편집기 - mac, linux, windows 지원
 }
 ~~~
 
-### VSCode extensions
+### VSCode extensions(Ctrl+Shitf+x)
 
 	Debugger for Chrome
     EditorConfig for VS Code
@@ -70,6 +70,8 @@ build 폴더 내의 모든 파일을 서버로 업로드하면 배포 완료
 ### 프로젝트 구조
 
 ```
+__tests__ : Jest 테스트 파일 폴더
+.storybook : 
 src : 소스 폴더
 public : 진입점 폴더(index.html)
 src/index.js : Root 모듈
@@ -234,7 +236,7 @@ if (_.get(this, 'state.name') === 'Mike') {
     *
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNzU5Nzc0NCwtMTIxODk0ODIxOCwxOD
+eyJoaXN0b3J5IjpbLTYwNTE1NzA5NSwtMTIxODk0ODIxOCwxOD
 gzMDEwOTIsMTc5OTM4NTc3MiwtMTI0NTUwMjI1NCw4Nzg3MTc3
 NjUsLTIwMzkyMjA4MDUsODU3NTI4NDIzLDQ1MTQ4NDUwMCw3Nz
 UxODUwMjMsLTk0NDM4NzU4OCwtNjIxMTI3MTM5LC0xMjMyMTEx
