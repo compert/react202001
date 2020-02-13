@@ -34,6 +34,7 @@ Microsoft에서 개발한 소스코드 편집기 - mac, linux, windows 지원
 > mkdir react202001
 > cd react202001
 > git clone https://github.com/compert/react202001.git
+> 
 
 ### 프로젝트 실행
 
@@ -66,6 +67,11 @@ jest.config.js : Jest 설정 파일
 package.json : 프로젝트 정보, 의존 모듈(라이브러리) 관리
 webpack.config.js : Webpack 설정 파일
 ```
+
+### StoryBook 실행
+
+> yarn start storybook
+
 
 ## 기본 Guide
 
@@ -213,11 +219,11 @@ if (_.get(this, 'state.name') === 'Mike') {
     *
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MzAxMDkyLDE3OTkzODU3NzIsLTEyND
-U1MDIyNTQsODc4NzE3NzY1LC0yMDM5MjIwODA1LDg1NzUyODQy
-Myw0NTE0ODQ1MDAsNzc1MTg1MDIzLC05NDQzODc1ODgsLTYyMT
-EyNzEzOSwtMTIzMjExMTM0OCwtMTAyMDgyNzU0OCwtOTcxMTIx
-NDg0LC0xNzA3MTk3MDY0LC0xODk0MjU0OTU5LC0xOTE3MzUwMD
-MxLDEwNjU4MTIwNDYsLTgwODM3NTg3LC0xMzU3OTI4NzcxLDE1
-NTgxNzU3NDFdfQ==
+eyJoaXN0b3J5IjpbODA1NTc0ODY4LDE4ODMwMTA5MiwxNzk5Mz
+g1NzcyLC0xMjQ1NTAyMjU0LDg3ODcxNzc2NSwtMjAzOTIyMDgw
+NSw4NTc1Mjg0MjMsNDUxNDg0NTAwLDc3NTE4NTAyMywtOTQ0Mz
+g3NTg4LC02MjExMjcxMzksLTEyMzIxMTEzNDgsLTEwMjA4Mjc1
+NDgsLTk3MTEyMTQ4NCwtMTcwNzE5NzA2NCwtMTg5NDI1NDk1OS
+wtMTkxNzM1MDAzMSwxMDY1ODEyMDQ2LC04MDgzNzU4NywtMTM1
+NzkyODc3MV19
 -->
