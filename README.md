@@ -82,7 +82,7 @@ stories : StoryBook 폴더
 .gitignore : git 관리 대상 제외 파일
 .prettierrc : Prettier 설정 파일
 jest.config.js : Jest 설정 파일
-README.md :  파일
+README.md : 현재 파일
 package.json : 프로젝트 정보, 의존 모듈(라이브러리) 관리
 webpack.config.js : Webpack 설정 파일
 ```
@@ -90,7 +90,6 @@ webpack.config.js : Webpack 설정 파일
 ### StoryBook 실행
 
 > yarn start storybook
-
 
 ## 기본 Guide
 
@@ -238,11 +237,11 @@ if (_.get(this, 'state.name') === 'Mike') {
     *
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjUxNDA2MzIsLTEyMTg5NDgyMTgsMT
-g4MzAxMDkyLDE3OTkzODU3NzIsLTEyNDU1MDIyNTQsODc4NzE3
-NzY1LC0yMDM5MjIwODA1LDg1NzUyODQyMyw0NTE0ODQ1MDAsNz
-c1MTg1MDIzLC05NDQzODc1ODgsLTYyMTEyNzEzOSwtMTIzMjEx
-MTM0OCwtMTAyMDgyNzU0OCwtOTcxMTIxNDg0LC0xNzA3MTk3MD
-Y0LC0xODk0MjU0OTU5LC0xOTE3MzUwMDMxLDEwNjU4MTIwNDYs
-LTgwODM3NTg3XX0=
+eyJoaXN0b3J5IjpbLTkzNTM1NDQxNCwtMTIxODk0ODIxOCwxOD
+gzMDEwOTIsMTc5OTM4NTc3MiwtMTI0NTUwMjI1NCw4Nzg3MTc3
+NjUsLTIwMzkyMjA4MDUsODU3NTI4NDIzLDQ1MTQ4NDUwMCw3Nz
+UxODUwMjMsLTk0NDM4NzU4OCwtNjIxMTI3MTM5LC0xMjMyMTEx
+MzQ4LC0xMDIwODI3NTQ4LC05NzExMjE0ODQsLTE3MDcxOTcwNj
+QsLTE4OTQyNTQ5NTksLTE5MTczNTAwMzEsMTA2NTgxMjA0Niwt
+ODA4Mzc1ODddfQ==
 -->
