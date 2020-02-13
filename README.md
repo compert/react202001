@@ -29,12 +29,12 @@ Microsoft에서 개발한 소스코드 편집기 - mac, linux, windows 지원
     Korean Language Pack for Visual Studio Code
     Prettier - Code formatter
 
-## 프로젝트 생성 및 git 저장소 내려받기
+## 프로젝트 생성 및 git 저장소 내려받기, 라이브러리 설치
 
 > mkdir react202001
 > cd react202001
 > git clone https://github.com/compert/react202001.git
-> 
+> yarn
 
 ### 프로젝트 실행
 
@@ -219,11 +219,11 @@ if (_.get(this, 'state.name') === 'Mike') {
     *
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA1NTc0ODY4LDE4ODMwMTA5MiwxNzk5Mz
-g1NzcyLC0xMjQ1NTAyMjU0LDg3ODcxNzc2NSwtMjAzOTIyMDgw
-NSw4NTc1Mjg0MjMsNDUxNDg0NTAwLDc3NTE4NTAyMywtOTQ0Mz
-g3NTg4LC02MjExMjcxMzksLTEyMzIxMTEzNDgsLTEwMjA4Mjc1
-NDgsLTk3MTEyMTQ4NCwtMTcwNzE5NzA2NCwtMTg5NDI1NDk1OS
-wtMTkxNzM1MDAzMSwxMDY1ODEyMDQ2LC04MDgzNzU4NywtMTM1
-NzkyODc3MV19
+eyJoaXN0b3J5IjpbMTE1NDcyMDQsMTg4MzAxMDkyLDE3OTkzOD
+U3NzIsLTEyNDU1MDIyNTQsODc4NzE3NzY1LC0yMDM5MjIwODA1
+LDg1NzUyODQyMyw0NTE0ODQ1MDAsNzc1MTg1MDIzLC05NDQzOD
+c1ODgsLTYyMTEyNzEzOSwtMTIzMjExMTM0OCwtMTAyMDgyNzU0
+OCwtOTcxMTIxNDg0LC0xNzA3MTk3MDY0LC0xODk0MjU0OTU5LC
+0xOTE3MzUwMDMxLDEwNjU4MTIwNDYsLTgwODM3NTg3LC0xMzU3
+OTI4NzcxXX0=
 -->
