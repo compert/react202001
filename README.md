@@ -25,9 +25,7 @@ Microsoft에서 개발한 소스코드 편집기 - mac, linux, windows 지원
 * VSCode 환경 설정(settings.json)
 ~~~
 {
-    "liveServer.settings.donotVerifyTags": true,
     "workbench.editor.enablePreview": false,
-    "liveServer.settings.donotShowInfoMsg": true,
     "window.zoomLevel": 0,
     "workbench.startupEditor": "none",
     "javascript.format.enable": false,
@@ -235,11 +233,11 @@ if (_.get(this, 'state.name') === 'Mike') {
     *
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NTY5NjU5MCwxODgzMDEwOTIsMTc5OT
-M4NTc3MiwtMTI0NTUwMjI1NCw4Nzg3MTc3NjUsLTIwMzkyMjA4
-MDUsODU3NTI4NDIzLDQ1MTQ4NDUwMCw3NzUxODUwMjMsLTk0ND
-M4NzU4OCwtNjIxMTI3MTM5LC0xMjMyMTExMzQ4LC0xMDIwODI3
-NTQ4LC05NzExMjE0ODQsLTE3MDcxOTcwNjQsLTE4OTQyNTQ5NT
-ksLTE5MTczNTAwMzEsMTA2NTgxMjA0NiwtODA4Mzc1ODcsLTEz
-NTc5Mjg3NzFdfQ==
+eyJoaXN0b3J5IjpbLTEyMTg5NDgyMTgsMTg4MzAxMDkyLDE3OT
+kzODU3NzIsLTEyNDU1MDIyNTQsODc4NzE3NzY1LC0yMDM5MjIw
+ODA1LDg1NzUyODQyMyw0NTE0ODQ1MDAsNzc1MTg1MDIzLC05ND
+QzODc1ODgsLTYyMTEyNzEzOSwtMTIzMjExMTM0OCwtMTAyMDgy
+NzU0OCwtOTcxMTIxNDg0LC0xNzA3MTk3MDY0LC0xODk0MjU0OT
+U5LC0xOTE3MzUwMDMxLDEwNjU4MTIwNDYsLTgwODM3NTg3LC0x
+MzU3OTI4NzcxXX0=
 -->
