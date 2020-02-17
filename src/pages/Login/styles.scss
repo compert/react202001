@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+/* 인덱스 */
+/* 공통 */
+
+.member-login {
+  float: center;
+  width: 400px;
+  padding-top: 50px;
+  text-align: center;
+
+  h1 {
+    margin-bottom: 60px;
+  }
+
+  h2 {
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+  }
+
+  .links {
+    margin-bottom: 144px;
+    font-size: 14px;
+    color: #333;
+
+    a {
+      &:before {
+        content: '';
+        display: inline-block;
+        width: 1px;
+        height: 8px;
+        margin: 0 12px;
+        background: #535353;
+        vertical-align: middle;
+      }
+
+      &:first-child:before {
+        display: none;
+      }
+    }
+  }
+}
+
+.login {
+  width: 250px;
+  margin: 0 auto 30px;
+
+  input {
+    &[type='text'],
+    &[type='password'] {
+      width: 100%;
+      height: 45px;
+      border: none;
+      border-bottom: 1px solid #434343;
+      font-size: 16px;
+    }
+
+    &::-webkit-input-placeholder,
+    &:-ms-input-placeholder,
+    &::placeholder {
+      font-size: 16px;
+      color: #aaa;
+    }
+
+    &[type='text']:first-child {
+      margin-bottom: 42px;
+    }
+  }
+}
+
+.btn {
+  display: inline-block;
+  height: 42px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  line-height: 42px;
+  color: #fff;
+  background: #6e4eb1;
+  cursor: pointer;
+
+  &:hover {
+    background: #5e4297;
+  }
+}
+
+.btn-login {
+  width: 190px;
+  margin-bottom: 50px;
+}
+
+.links {
+  margin-bottom: 144px;
+  font-size: 14px;
+  color: #333;
+
+  a {
+    &:before {
+      content: '';
+      display: inline-block;
+      width: 1px;
+      height: 8px;
+      margin: 0 12px;
+      background: #535353;
+      vertical-align: middle;
+    }
+
+    &:first-child:before {
+      display: none;
+    }
+  }
+}

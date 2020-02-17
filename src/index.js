@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import {Provider} from 'react-redux'
 
 import configureStore from './redux/store'
-import App from '../stories/Routes/App'
+import App from './pages/Login'
 
 const store = configureStore(undefined)
 

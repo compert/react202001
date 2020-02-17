@@ -1,4 +1,3 @@
-require('@babel/polyfill')
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
@@ -11,7 +10,7 @@ const htmlPlugin = new HtmlWebpackPlugin({
 const config = mode => {
   const devMode = mode === 'development'
   return {
-    entry: ['@babel/polyfill', './src/index.js'],
+    entry: ['./src/index.js'],
     output: {
       path: path.join(__dirname, '/build'),
       filename: 'index.bundle.js',
@@ -46,6 +45,19 @@ const config = mode => {
               loader: 'sass-loader',
               options: {
                 sourceMap: true,
+              },
+            },
+          ],
+        },
+        {
+          test: /\.(png|svg|jpe?g|gif)$/,
+          use: [
+            {
+              loader: 'file-loader',
+              options: {
+                name: '[path][name].[ext]',
+                context: 'src',
+                esModule: false,
               },
             },
           ],
