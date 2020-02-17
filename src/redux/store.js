@@ -4,7 +4,7 @@ import createSagaMiddleware, {END} from 'redux-saga'
 
 import rootSaga from './sagas'
 import reducer from './reducers'
-import apmConst from '../../src/common/constants'
+import eConst from '../common/constants'
 
 export default function configureStore(initialState) {
   const sagaMiddleware = createSagaMiddleware()
@@ -13,7 +13,7 @@ export default function configureStore(initialState) {
   const store = createStore(
     reducer,
     initialState,
-    apmConst.PRODUCTION ? applyMiddleware(...middlewares) : composeWithDevTools(applyMiddleware(...middlewares))
+    eConst.PRODUCTION ? applyMiddleware(...middlewares) : composeWithDevTools(applyMiddleware(...middlewares))
   )
 
   sagaMiddleware.run(rootSaga)

@@ -5,4 +5,9 @@ import classNames from 'classnames/bind'
  */
 export const cBind = (reactComp, styles) => {
   reactComp.cx = classNames.bind(styles)
+  reactComp.changeInputText = e => {
+    reactComp.setState({
+      [e.target.name]: e.target.value,
+    })
+  }
 }

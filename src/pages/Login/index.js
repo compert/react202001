@@ -1,14 +1,34 @@
 import React from 'react'
+import {connect} from 'react-redux'
 
+import {actionUserLogin} from '../../redux/actions'
 import {cBind} from '../../common/bind'
 import styles from './styles.scss'
 
 class Login extends React.Component {
   constructor(props) {
     super(props)
+    this.state = {
+      userId: 'enliple',
+      userPw: '11111111',
+    }
     cBind(this, styles)
   }
+  handleLogin = () => {
+    const {userLogin} = this.props
+    const {userId, userPw} = this.state
+    const data = {userId, userPw}
+    userLogin(data, {
+      cbSuccess: () => {
+        console.log('Login success!')
+      },
+      cbFailure: response => {
+        console.log('Login failed!')
+      },
+    })
+  }
   render() {
+    const {userId, userPw} = this.state
     return (
       <div className={this.cx('member-login')}>
         <form action="">
@@ -17,10 +37,10 @@ class Login extends React.Component {
           </h1>
           <h2>로그인</h2>
           <div className={this.cx('login')}>
-            <input id="main_userId" type="text" placeholder="ID" />
-            <input id="main_userPass" type="password" placeholder="Password" />
+            <input name="userId" type="text" placeholder="ID" value={userId} onChange={this.changeInputText} />
+            <input name="userPw" type="password" placeholder="Password" value={userPw} onChange={this.changeInputText} />
           </div>
-          <input id="main_loginBtn" type="button" value="Login" className={this.cx('btn', 'btn-login')} />
+          <input value="Login" type="button" className={this.cx('btn', 'btn-login')} onClick={this.handleLogin} />
           <div className={this.cx('links')}>
             <a href="#" className="btn-open-popup">
               회원가입
@@ -38,4 +58,11 @@ class Login extends React.Component {
   }
 }
 
-export default Login
+export default connect(
+  state => ({
+    user: state.user,
+  }),
+  dispatch => ({
+    userLogin: (data, rest) => dispatch(actionUserLogin.request(data, rest)),
+  })
+)(Login)

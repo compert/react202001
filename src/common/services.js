@@ -3,16 +3,22 @@ import _ from 'lodash'
 
 import apmConst from './constants'
 
-global.apmApiUri = apmConst.getApiUri()
+global.apiUri = apmConst.getApiUri()
+
+axios.defaults.headers.common = {}
+axios.defaults.headers.common.accept = 'application/json'
 
 const commonAPI = (path, data, method) => {
   const payload = _.get(data, 'payload', data)
   return axios({
-    url: `${global.apmApiUri}${path}`,
+    url: `${global.apiUri}${path}`,
     method,
     headers: {
+      'Access-Control-Allow-Origin': '*',
       'content-type': 'application/json',
     },
+    withCredentials: true,
+    credentials: 'same-origin',
     data: method === 'POST' ? payload : undefined,
   })
     .then(response => response.data)

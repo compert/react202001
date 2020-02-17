@@ -13,6 +13,8 @@ export default function user(state = initialState, action) {
     case USER_LOGIN.REQUEST:
       return {
         ...state,
+        isLogged: false,
+        userId: _.get(action, 'payload.userId', ''),
       }
     case USER_LOGIN.SUCCESS: {
       if (API.getResult(action)) {
@@ -20,16 +22,18 @@ export default function user(state = initialState, action) {
         return {
           ...state,
           isLogged: true,
-          userId: _.get(data, 'userId', ''),
         }
       }
       return initialState
     }
-    case USER_LOGIN.INIT:
     case USER_LOGIN.FAILURE:
       return {
+        ...state,
+        isLogged: false,
+      }
+    case USER_LOGIN.INIT:
+      return {
         ...initialState,
-        code: API.getCode(action),
       }
     default:
       return {
