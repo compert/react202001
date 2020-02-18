@@ -13,12 +13,7 @@ const commonAPI = (path, data, method) => {
   return axios({
     url: `${global.apiUri}${path}`,
     method,
-    headers: {
-      'Access-Control-Allow-Origin': '*',
-      'content-type': 'application/json',
-    },
-    withCredentials: true,
-    credentials: 'same-origin',
+    headers: {'content-type': 'application/json'},
     data: method === 'POST' ? payload : undefined,
   })
     .then(response => response.data)
